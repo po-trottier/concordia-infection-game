@@ -10,6 +10,11 @@ namespace Player
         [SerializeField] private float jumpForce = 0.15f;
         [SerializeField] private float jumpDelay = 0.25f;
         
+        [Header("Stairs Settings")]
+        [SerializeField] private float stairsSpeed = 1.5f;
+        [SerializeField] private float stairsOffset = 0.3f;
+        [SerializeField] private LayerMask stairsMask;
+        
         [Header("Ground Check")]
         [SerializeField] private float groundedOffset = 0.05f;
         [SerializeField] private LayerMask groundedMask;
@@ -24,6 +29,10 @@ namespace Player
         private float _jumpDelta;
 
         private bool IsGrounded => Physics2D.Raycast(box.bounds.center, Vector2.down, box.bounds.extents.y + groundedOffset, groundedMask).collider != null;
+        
+        private bool CanClimb => Physics2D.Raycast(box.bounds.center, Vector2.up, box.bounds.extents.y - stairsOffset, stairsMask).collider != null;
+        
+        private bool CanDescend => Physics2D.Raycast(box.bounds.center, Vector2.down, box.bounds.extents.y + groundedOffset, stairsMask).collider != null;
 
         private bool CanJump => _jumpDelta > jumpDelay;
         
@@ -31,6 +40,7 @@ namespace Player
         {
             MovePlayer();
             TryJump();
+            TryClimb();
         }
 
         private void MovePlayer()
@@ -65,6 +75,26 @@ namespace Player
             animator.SetBool(PlayerAnimator.Grounded, false);
             
             _jumpDelta = 0;
+        }
+        
+        private void TryClimb()
+        {
+            animator.SetFloat(PlayerAnimator.VerticalSpeed, 0);
+            
+            if (!CanClimb && !CanDescend)
+            {
+                rb.gravityScale = 1;
+                return;
+            }
+            
+            rb.gravityScale = 0;
+
+            if (Mathf.Abs(input.move.y) > 0f)
+            {
+                transform.Translate(new Vector3(0f, input.move.y * stairsSpeed * Time.deltaTime, 0f));
+                
+                animator.SetFloat(PlayerAnimator.VerticalSpeed, input.move.y);
+            }
         }
     }
 }

@@ -59,7 +59,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  - {fileID: 2100000, guid: 6c057aebac133f547a0320abcfaede47, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -284,6 +284,11 @@ MonoBehaviour:
   playerSpeed: 2
   jumpForce: 0.15
   jumpDelay: 0.15
+  stairsSpeed: 1.5
+  stairsOffset: 0.3
+  stairsMask:
+    serializedVersion: 2
+    m_Bits: 1024
   groundedOffset: 0.05
   groundedMask:
     serializedVersion: 2
