@@ -1,0 +1,2352 @@
+fileFormatVersion: 2
+guid: 3aabcb6acba5e694d83fad2b6d956ec7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1998692558980646002
+    second: NPC_Vaccinated Spritesheet_0
+  - first:
+      213: 518046910525020752
+    second: NPC_Vaccinated Spritesheet_1
+  - first:
+      213: -8837128184790990059
+    second: NPC_Vaccinated Spritesheet_2
+  - first:
+      213: 298173557502447547
+    second: NPC_Vaccinated Spritesheet_3
+  - first:
+      213: -2378768169519639967
+    second: NPC_Vaccinated Spritesheet_4
+  - first:
+      213: -2764057652176286201
+    second: NPC_Vaccinated Spritesheet_5
+  - first:
+      213: -2909119078493270959
+    second: NPC_Vaccinated Spritesheet_6
+  - first:
+      213: -8311313674409758699
+    second: NPC_Vaccinated Spritesheet_7
+  - first:
+      213: -4736104381004576636
+    second: NPC_Vaccinated Spritesheet_8
+  - first:
+      213: 8206478763961232754
+    second: NPC_Vaccinated Spritesheet_9
+  - first:
+      213: 2162797834452455731
+    second: NPC_Vaccinated Spritesheet_10
+  - first:
+      213: 5502674939899958138
+    second: NPC_Vaccinated Spritesheet_11
+  - first:
+      213: -2480332855287844131
+    second: NPC_Vaccinated Spritesheet_12
+  - first:
+      213: -1840131493284537457
+    second: NPC_Vaccinated Spritesheet_13
+  - first:
+      213: -4412507549118164716
+    second: NPC_Vaccinated Spritesheet_14
+  - first:
+      213: -3278907254891124908
+    second: NPC_Vaccinated Spritesheet_15
+  - first:
+      213: 6934024719879777418
+    second: NPC_Vaccinated Spritesheet_16
+  - first:
+      213: 8276352838507005164
+    second: NPC_Vaccinated Spritesheet_17
+  - first:
+      213: -1443947846557464948
+    second: NPC_Vaccinated Spritesheet_18
+  - first:
+      213: -5539044258906751877
+    second: NPC_Vaccinated Spritesheet_19
+  - first:
+      213: 780914700742780269
+    second: NPC_Vaccinated Spritesheet_20
+  - first:
+      213: -3566020764885046577
+    second: NPC_Vaccinated Spritesheet_21
+  - first:
+      213: 2356425053769737392
+    second: NPC_Vaccinated Spritesheet_22
+  - first:
+      213: 4152887769989701038
+    second: NPC_Vaccinated Spritesheet_23
+  - first:
+      213: -2314795527684930092
+    second: NPC_Vaccinated Spritesheet_24
+  - first:
+      213: 8922422659312692799
+    second: NPC_Vaccinated Spritesheet_25
+  - first:
+      213: 2230855947543409381
+    second: NPC_Vaccinated Spritesheet_26
+  - first:
+      213: -789097972756568629
+    second: NPC_Vaccinated Spritesheet_27
+  - first:
+      213: 1317216620092339492
+    second: NPC_Vaccinated Spritesheet_28
+  - first:
+      213: 7597338690993144466
+    second: NPC_Vaccinated Spritesheet_29
+  - first:
+      213: -8281745858873390664
+    second: NPC_Vaccinated Spritesheet_30
+  - first:
+      213: 6323923081768116962
+    second: NPC_Vaccinated Spritesheet_31
+  - first:
+      213: -8889601746510649105
+    second: NPC_Vaccinated Spritesheet_32
+  - first:
+      213: -6751672946719927747
+    second: NPC_Vaccinated Spritesheet_33
+  - first:
+      213: 5935187665794458254
+    second: NPC_Vaccinated Spritesheet_34
+  - first:
+      213: 6571213037697576262
+    second: NPC_Vaccinated Spritesheet_35
+  - first:
+      213: 7319142782791206554
+    second: NPC_Vaccinated Spritesheet_36
+  - first:
+      213: 4269402134436051724
+    second: NPC_Vaccinated Spritesheet_37
+  - first:
+      213: 978896995789783832
+    second: NPC_Vaccinated Spritesheet_38
+  - first:
+      213: 7658390886243364168
+    second: NPC_Vaccinated Spritesheet_39
+  - first:
+      213: 7565601777125346746
+    second: NPC_Vaccinated Spritesheet_40
+  - first:
+      213: -741961501666548837
+    second: NPC_Vaccinated Spritesheet_41
+  - first:
+      213: -8421872160191903821
+    second: NPC_Vaccinated Spritesheet_42
+  - first:
+      213: -5983556175012603247
+    second: NPC_Vaccinated Spritesheet_43
+  - first:
+      213: 597262291462240434
+    second: NPC_Vaccinated Spritesheet_44
+  - first:
+      213: 4906091971830471355
+    second: NPC_Vaccinated Spritesheet_45
+  - first:
+      213: 3191355841197575046
+    second: NPC_Vaccinated Spritesheet_46
+  - first:
+      213: -651544683352567680
+    second: NPC_Vaccinated Spritesheet_47
+  - first:
+      213: -8111780419321532467
+    second: NPC_Vaccinated Spritesheet_48
+  - first:
+      213: -5738675220971329883
+    second: NPC_Vaccinated Spritesheet_49
+  - first:
+      213: 3354499401573801117
+    second: NPC_Vaccinated Spritesheet_50
+  - first:
+      213: 2494307852857196888
+    second: NPC_Vaccinated Spritesheet_51
+  - first:
+      213: 5804376893929387646
+    second: NPC_Vaccinated Spritesheet_52
+  - first:
+      213: -8467962993818428517
+    second: NPC_Vaccinated Spritesheet_53
+  - first:
+      213: 6557461081225295728
+    second: NPC_Vaccinated Spritesheet_54
+  - first:
+      213: 6619318212609090608
+    second: NPC_Vaccinated Spritesheet_55
+  - first:
+      213: -6120411449533531539
+    second: NPC_Vaccinated Spritesheet_56
+  - first:
+      213: -6886238035666487455
+    second: NPC_Vaccinated Spritesheet_57
+  - first:
+      213: -1738211095767936829
+    second: NPC_Vaccinated Spritesheet_58
+  - first:
+      213: 5018059503916256130
+    second: NPC_Vaccinated Spritesheet_59
+  - first:
+      213: 3685486584549888187
+    second: NPC_Vaccinated Spritesheet_60
+  - first:
+      213: 3402435823726278469
+    second: NPC_Vaccinated Spritesheet_61
+  - first:
+      213: 6411586874330617866
+    second: NPC_Vaccinated Spritesheet_62
+  - first:
+      213: 1175366270379541966
+    second: NPC_Vaccinated Spritesheet_63
+  - first:
+      213: -6792814961736311760
+    second: NPC_Vaccinated Spritesheet_64
+  - first:
+      213: -2023667353385299929
+    second: NPC_Vaccinated Spritesheet_65
+  - first:
+      213: 5166439737230248644
+    second: NPC_Vaccinated Spritesheet_66
+  - first:
+      213: 3951890038477514890
+    second: NPC_Vaccinated Spritesheet_67
+  - first:
+      213: -5778509903921953542
+    second: NPC_Vaccinated Spritesheet_68
+  - first:
+      213: -9150364122557625549
+    second: NPC_Vaccinated Spritesheet_69
+  - first:
+      213: 9178756551967662368
+    second: NPC_Vaccinated Spritesheet_70
+  - first:
+      213: -260924364299824057
+    second: NPC_Vaccinated Spritesheet_71
+  - first:
+      213: 486524943047241305
+    second: NPC_Vaccinated Spritesheet_72
+  - first:
+      213: 5635534561589859054
+    second: NPC_Vaccinated Spritesheet_73
+  - first:
+      213: -8205835799981697677
+    second: NPC_Vaccinated Spritesheet_74
+  - first:
+      213: -6262414788814829022
+    second: NPC_Vaccinated Spritesheet_75
+  - first:
+      213: -6573354133848176778
+    second: NPC_Vaccinated Spritesheet_76
+  - first:
+      213: -9209459075311120043
+    second: NPC_Vaccinated Spritesheet_77
+  - first:
+      213: 2713673284897543833
+    second: NPC_Vaccinated Spritesheet_78
+  - first:
+      213: 6345862227522006088
+    second: NPC_Vaccinated Spritesheet_79
+  - first:
+      213: -7282271362910819423
+    second: NPC_Vaccinated Spritesheet_80
+  - first:
+      213: -4146137038097795853
+    second: NPC_Vaccinated Spritesheet_81
+  - first:
+      213: -7600529222788474805
+    second: NPC_Vaccinated Spritesheet_82
+  - first:
+      213: -8742397171450054369
+    second: NPC_Vaccinated Spritesheet_83
+  - first:
+      213: 5983907196595240464
+    second: NPC_Vaccinated Spritesheet_84
+  - first:
+      213: -2042274799940118625
+    second: NPC_Vaccinated Spritesheet_85
+  - first:
+      213: -5232329238119332330
+    second: NPC_Vaccinated Spritesheet_86
+  - first:
+      213: -7947610873247721647
+    second: NPC_Vaccinated Spritesheet_87
+  - first:
+      213: -3696503063931418627
+    second: NPC_Vaccinated Spritesheet_88
+  - first:
+      213: -2511827927996051113
+    second: NPC_Vaccinated Spritesheet_89
+  - first:
+      213: 9160945490392202700
+    second: NPC_Vaccinated Spritesheet_90
+  - first:
+      213: 541773405447328083
+    second: NPC_Vaccinated Spritesheet_91
+  - first:
+      213: -3859243563411218634
+    second: NPC_Vaccinated Spritesheet_92
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: NPC_Vaccinated Spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1512
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8bfdb605b73344e0800000000000000
+      internalID: -1998692558980646002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Vaccinated Spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1428
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05a15de9be8703700800000000000000
+      internalID: 518046910525020752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Vaccinated Spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1428
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 513c0feacb63c5580800000000000000
+      internalID: -8837128184790990059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Vaccinated Spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1428
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbf09505543532400800000000000000
+      internalID: 298173557502447547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Vaccinated Spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 1428
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16296ccf3faecfed0800000000000000
+      internalID: -2378768169519639967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Vaccinated Spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1428
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70e055fb53814a9d0800000000000000
+      internalID: -2764057652176286201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Vaccinated Spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1428
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15cc81d7c9bb0a7d0800000000000000
+      internalID: -2909119078493270959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Vaccinated Spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 1428
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 510b5f39f3848ac80800000000000000
+      internalID: -8311313674409758699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Vaccinated Spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1344
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4880d0f882af54eb0800000000000000
+      internalID: -4736104381004576636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Vaccinated Spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1344
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27d22beb4f443e170800000000000000
+      internalID: 8206478763961232754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Vaccinated Spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1260
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 331d583eb2dc30e10800000000000000
+      internalID: 2162797834452455731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Vaccinated Spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1260
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a735e2314bd6d5c40800000000000000
+      internalID: 5502674939899958138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Vaccinated Spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1260
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd276d3d866149dd0800000000000000
+      internalID: -2480332855287844131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Vaccinated Spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 1260
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8b14c2082a8676e0800000000000000
+      internalID: -1840131493284537457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Vaccinated Spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1260
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 411151633cf93c2c0800000000000000
+      internalID: -4412507549118164716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Vaccinated Spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1260
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45763cc593bfe72d0800000000000000
+      internalID: -3278907254891124908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Vaccinated Spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 1260
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8c2634aeba9a3060800000000000000
+      internalID: 6934024719879777418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Vaccinated Spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 1260
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce4810f7e038bd270800000000000000
+      internalID: 8276352838507005164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Vaccinated Spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1176
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8680cb751116fbe0800000000000000
+      internalID: -1443947846557464948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Vaccinated Spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1092
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7c32b8f79c5123b0800000000000000
+      internalID: -5539044258906751877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Vaccinated Spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1008
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6567a968cd56da00800000000000000
+      internalID: 780914700742780269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Vaccinated Spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 924
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fca2c570203f28ec0800000000000000
+      internalID: -3566020764885046577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Vaccinated Spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 924
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b4a6cdf914b3b020800000000000000
+      internalID: 2356425053769737392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Vaccinated Spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 840
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaddc428c6502a930800000000000000
+      internalID: 4152887769989701038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Vaccinated Spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 840
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d54dac5bb130efd0800000000000000
+      internalID: -2314795527684930092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Vaccinated Spritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 840
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3eaa38b220d2db70800000000000000
+      internalID: 8922422659312692799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Vaccinated Spritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 840
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e2746a2aa795fe10800000000000000
+      internalID: 2230855947543409381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Vaccinated Spritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 840
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc52dd8139f8c05f0800000000000000
+      internalID: -789097972756568629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Vaccinated Spritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 840
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42538dc7981b74210800000000000000
+      internalID: 1317216620092339492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Vaccinated Spritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 840
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2924afa794b2f6960800000000000000
+      internalID: 7597338690993144466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Vaccinated Spritesheet_30
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 840
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b90ac91504511d80800000000000000
+      internalID: -8281745858873390664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Vaccinated Spritesheet_31
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 840
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e2aeab898613c750800000000000000
+      internalID: 6323923081768116962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Vaccinated Spritesheet_32
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 840
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe86a888f4ac1a480800000000000000
+      internalID: -8889601746510649105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Vaccinated Spritesheet_33
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 840
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d32d4231a3d3d42a0800000000000000
+      internalID: -6751672946719927747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Vaccinated Spritesheet_34
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 840
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8265fe6cb50e5250800000000000000
+      internalID: 5935187665794458254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Vaccinated Spritesheet_35
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 840
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64d21672173a13b50800000000000000
+      internalID: 6571213037697576262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Vaccinated Spritesheet_36
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 840
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9642ac1591d29560800000000000000
+      internalID: 7319142782791206554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Vaccinated Spritesheet_37
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 756
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0bfa5afe96ff3b30800000000000000
+      internalID: 4269402134436051724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Vaccinated Spritesheet_38
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 756
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8134fb991adb59d00800000000000000
+      internalID: 978896995789783832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Vaccinated Spritesheet_39
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 756
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84def956fe1184a60800000000000000
+      internalID: 7658390886243364168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Vaccinated Spritesheet_40
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 756
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abdce956bba6ef860800000000000000
+      internalID: 7565601777125346746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Vaccinated Spritesheet_41
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 756
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b93662002f504b5f0800000000000000
+      internalID: -741961501666548837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Vaccinated Spritesheet_42
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 756
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b7820c24ef7f1b80800000000000000
+      internalID: -8421872160191903821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Vaccinated Spritesheet_43
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 672
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19a57ce6c5326fca0800000000000000
+      internalID: -5983556175012603247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Vaccinated Spritesheet_44
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 672
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b8b750c3e6e94800800000000000000
+      internalID: 597262291462240434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Vaccinated Spritesheet_45
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 672
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbad950a7a0f51440800000000000000
+      internalID: 4906091971830471355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Vaccinated Spritesheet_46
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 672
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68b0372aa39f94c20800000000000000
+      internalID: 3191355841197575046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Vaccinated Spritesheet_47
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 672
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 080d971009f35f6f0800000000000000
+      internalID: -651544683352567680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Vaccinated Spritesheet_48
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 672
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcfee5acfaa2d6f80800000000000000
+      internalID: -8111780419321532467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Vaccinated Spritesheet_49
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 672
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a6eaa49a412c50b0800000000000000
+      internalID: -5738675220971329883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Vaccinated Spritesheet_50
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 672
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9c111ece639d8e20800000000000000
+      internalID: 3354499401573801117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Vaccinated Spritesheet_51
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 588
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 851450ad6cf8d9220800000000000000
+      internalID: 2494307852857196888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Vaccinated Spritesheet_52
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 588
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e767529380a4d8050800000000000000
+      internalID: 5804376893929387646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Vaccinated Spritesheet_53
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 588
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9b9c46b580cb7a80800000000000000
+      internalID: -8467962993818428517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Vaccinated Spritesheet_54
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 588
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 077f1e64c18c00b50800000000000000
+      internalID: 6557461081225295728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Vaccinated Spritesheet_55
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 588
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 034a6ddf7da8cdb50800000000000000
+      internalID: 6619318212609090608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Vaccinated Spritesheet_56
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 588
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6af157c63eef0ba0800000000000000
+      internalID: -6120411449533531539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Vaccinated Spritesheet_57
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 588
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 167b05dcdfa2f60a0800000000000000
+      internalID: -6886238035666487455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Vaccinated Spritesheet_58
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 588
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c01c14c732a0e7e0800000000000000
+      internalID: -1738211095767936829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Vaccinated Spritesheet_59
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 588
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28b83b0388ab3a540800000000000000
+      internalID: 5018059503916256130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Vaccinated Spritesheet_60
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 588
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb05098a58a752330800000000000000
+      internalID: 3685486584549888187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Vaccinated Spritesheet_61
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 504
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 547b444da51e73f20800000000000000
+      internalID: 3402435823726278469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Vaccinated Spritesheet_62
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 504
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a08980bca488af850800000000000000
+      internalID: 6411586874330617866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Vaccinated Spritesheet_63
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 504
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec5c2f2456dbf4010800000000000000
+      internalID: 1175366270379541966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Vaccinated Spritesheet_64
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 504
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03c9fbc38c21bb1a0800000000000000
+      internalID: -6792814961736311760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Vaccinated Spritesheet_65
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 420
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7201ae1934d7ae3e0800000000000000
+      internalID: -2023667353385299929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Vaccinated Spritesheet_66
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 420
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ca421b6191e2b740800000000000000
+      internalID: 5166439737230248644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Vaccinated Spritesheet_67
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 420
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a886bde4d0fe7d630800000000000000
+      internalID: 3951890038477514890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Vaccinated Spritesheet_68
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 420
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af4c7a5bbdb9ecfa0800000000000000
+      internalID: -5778509903921953542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Vaccinated Spritesheet_69
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 336
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33b497daf40630180800000000000000
+      internalID: -9150364122557625549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Vaccinated Spritesheet_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 252
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02162dfe37e716f70800000000000000
+      internalID: 9178756551967662368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Vaccinated Spritesheet_71
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 252
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7441aa05ca2016cf0800000000000000
+      internalID: -260924364299824057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Vaccinated Spritesheet_72
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 252
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95ea2b4abdb70c600800000000000000
+      internalID: 486524943047241305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Vaccinated Spritesheet_73
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 252
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee2100f43d0753e40800000000000000
+      internalID: 5635534561589859054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Vaccinated Spritesheet_74
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 252
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37558e8f0d30f1e80800000000000000
+      internalID: -8205835799981697677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Vaccinated Spritesheet_75
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 252
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22a0a84edee6719a0800000000000000
+      internalID: -6262414788814829022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Vaccinated Spritesheet_76
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 252
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 677422d0e31c6c4a0800000000000000
+      internalID: -6573354133848176778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Vaccinated Spritesheet_77
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 252
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 551559ac3cd613080800000000000000
+      internalID: -9209459075311120043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Vaccinated Spritesheet_78
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 168
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99619c69977e8a520800000000000000
+      internalID: 2713673284897543833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Vaccinated Spritesheet_79
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 168
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84ca409f218011850800000000000000
+      internalID: 6345862227522006088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Vaccinated Spritesheet_80
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 168
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ab63bf47cc20fa90800000000000000
+      internalID: -7282271362910819423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Vaccinated Spritesheet_81
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 168
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f4371eb456f576c0800000000000000
+      internalID: -4146137038097795853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Vaccinated Spritesheet_82
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 168
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4897b2f0fe758690800000000000000
+      internalID: -7600529222788474805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Vaccinated Spritesheet_83
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 168
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f19f65e7714cca680800000000000000
+      internalID: -8742397171450054369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Vaccinated Spritesheet_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 84
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01e76f524eb1b0350800000000000000
+      internalID: 5983907196595240464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Vaccinated Spritesheet_85
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 84
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9756dfc3e168a3e0800000000000000
+      internalID: -2042274799940118625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Vaccinated Spritesheet_86
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 84
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 616c10ea7480367b0800000000000000
+      internalID: -5232329238119332330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Vaccinated Spritesheet_87
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 84
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 157990fd40a64b190800000000000000
+      internalID: -7947610873247721647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Vaccinated Spritesheet_88
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 84
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df7893b5c0263bcc0800000000000000
+      internalID: -3696503063931418627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Vaccinated Spritesheet_89
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 84
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 751d3e6cec1342dd0800000000000000
+      internalID: -2511827927996051113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Vaccinated Spritesheet_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccd3b810367322f70800000000000000
+      internalID: 9160945490392202700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Vaccinated Spritesheet_91
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3511174ba04c48700800000000000000
+      internalID: 541773405447328083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Vaccinated Spritesheet_92
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63f592d1d66317ac0800000000000000
+      internalID: -3859243563411218634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

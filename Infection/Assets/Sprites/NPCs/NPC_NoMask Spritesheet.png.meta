@@ -1,0 +1,2352 @@
+fileFormatVersion: 2
+guid: 3506e215c2d990f45b0ac5f6df948022
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8862684672541747902
+    second: NPC_NoMask Spritesheet_0
+  - first:
+      213: 2136570854033256638
+    second: NPC_NoMask Spritesheet_1
+  - first:
+      213: 5091421566782233044
+    second: NPC_NoMask Spritesheet_2
+  - first:
+      213: 1877213598563443572
+    second: NPC_NoMask Spritesheet_3
+  - first:
+      213: -6066828842942171612
+    second: NPC_NoMask Spritesheet_4
+  - first:
+      213: -202858202565163482
+    second: NPC_NoMask Spritesheet_5
+  - first:
+      213: 2113908996260242911
+    second: NPC_NoMask Spritesheet_6
+  - first:
+      213: 751367157180477979
+    second: NPC_NoMask Spritesheet_7
+  - first:
+      213: 2609464455571822512
+    second: NPC_NoMask Spritesheet_8
+  - first:
+      213: -4569683695015015988
+    second: NPC_NoMask Spritesheet_9
+  - first:
+      213: 1072865556869617438
+    second: NPC_NoMask Spritesheet_10
+  - first:
+      213: 7774049157542231392
+    second: NPC_NoMask Spritesheet_11
+  - first:
+      213: -8289189525443214805
+    second: NPC_NoMask Spritesheet_12
+  - first:
+      213: 5961392542061967007
+    second: NPC_NoMask Spritesheet_13
+  - first:
+      213: 1511240846183245868
+    second: NPC_NoMask Spritesheet_14
+  - first:
+      213: 2485222048918586790
+    second: NPC_NoMask Spritesheet_15
+  - first:
+      213: -5050803139873868860
+    second: NPC_NoMask Spritesheet_16
+  - first:
+      213: -6479606392282786696
+    second: NPC_NoMask Spritesheet_17
+  - first:
+      213: 4001607373428517458
+    second: NPC_NoMask Spritesheet_18
+  - first:
+      213: -8949122040063336517
+    second: NPC_NoMask Spritesheet_19
+  - first:
+      213: -2248291760635424048
+    second: NPC_NoMask Spritesheet_20
+  - first:
+      213: -9171231632927637635
+    second: NPC_NoMask Spritesheet_21
+  - first:
+      213: 798786579027708606
+    second: NPC_NoMask Spritesheet_22
+  - first:
+      213: 10951379767623790
+    second: NPC_NoMask Spritesheet_23
+  - first:
+      213: 6403763108568802081
+    second: NPC_NoMask Spritesheet_24
+  - first:
+      213: -7071009108220924059
+    second: NPC_NoMask Spritesheet_25
+  - first:
+      213: 3464495923169553298
+    second: NPC_NoMask Spritesheet_26
+  - first:
+      213: -3591513853634798904
+    second: NPC_NoMask Spritesheet_27
+  - first:
+      213: -3788261404883454170
+    second: NPC_NoMask Spritesheet_28
+  - first:
+      213: -418490168085106873
+    second: NPC_NoMask Spritesheet_29
+  - first:
+      213: 1613710739110084857
+    second: NPC_NoMask Spritesheet_30
+  - first:
+      213: 960795999951518976
+    second: NPC_NoMask Spritesheet_31
+  - first:
+      213: -5487765217218843909
+    second: NPC_NoMask Spritesheet_32
+  - first:
+      213: 7616901993828970792
+    second: NPC_NoMask Spritesheet_33
+  - first:
+      213: -6768854792147938333
+    second: NPC_NoMask Spritesheet_34
+  - first:
+      213: -1324514074258472224
+    second: NPC_NoMask Spritesheet_35
+  - first:
+      213: 6553614001725943524
+    second: NPC_NoMask Spritesheet_36
+  - first:
+      213: -6134032500759080374
+    second: NPC_NoMask Spritesheet_37
+  - first:
+      213: 7835262685677543812
+    second: NPC_NoMask Spritesheet_38
+  - first:
+      213: -6293517752721905275
+    second: NPC_NoMask Spritesheet_39
+  - first:
+      213: -5329249097624653317
+    second: NPC_NoMask Spritesheet_40
+  - first:
+      213: -894819516766303580
+    second: NPC_NoMask Spritesheet_41
+  - first:
+      213: -2904805014660867766
+    second: NPC_NoMask Spritesheet_42
+  - first:
+      213: 4316843681235399297
+    second: NPC_NoMask Spritesheet_43
+  - first:
+      213: 8205510224558896846
+    second: NPC_NoMask Spritesheet_44
+  - first:
+      213: -5264524578691979014
+    second: NPC_NoMask Spritesheet_45
+  - first:
+      213: 175520597702874986
+    second: NPC_NoMask Spritesheet_46
+  - first:
+      213: 8626183251222538891
+    second: NPC_NoMask Spritesheet_47
+  - first:
+      213: -8809801723171171926
+    second: NPC_NoMask Spritesheet_48
+  - first:
+      213: 8474839313809821557
+    second: NPC_NoMask Spritesheet_49
+  - first:
+      213: 2163644633932538113
+    second: NPC_NoMask Spritesheet_50
+  - first:
+      213: -6732823317127440477
+    second: NPC_NoMask Spritesheet_51
+  - first:
+      213: -1901460298743233930
+    second: NPC_NoMask Spritesheet_52
+  - first:
+      213: -690426447428722375
+    second: NPC_NoMask Spritesheet_53
+  - first:
+      213: -6461818559347525401
+    second: NPC_NoMask Spritesheet_54
+  - first:
+      213: 9101981657126227458
+    second: NPC_NoMask Spritesheet_55
+  - first:
+      213: -3814890747993419954
+    second: NPC_NoMask Spritesheet_56
+  - first:
+      213: 8614504272384805824
+    second: NPC_NoMask Spritesheet_57
+  - first:
+      213: 7871862534352759812
+    second: NPC_NoMask Spritesheet_58
+  - first:
+      213: -4812010976696157273
+    second: NPC_NoMask Spritesheet_59
+  - first:
+      213: 3812909683255045031
+    second: NPC_NoMask Spritesheet_60
+  - first:
+      213: -2044691619658374054
+    second: NPC_NoMask Spritesheet_61
+  - first:
+      213: 270950100027827710
+    second: NPC_NoMask Spritesheet_62
+  - first:
+      213: -7913132243496916832
+    second: NPC_NoMask Spritesheet_63
+  - first:
+      213: -8980633620072266194
+    second: NPC_NoMask Spritesheet_64
+  - first:
+      213: 8741115780101393983
+    second: NPC_NoMask Spritesheet_65
+  - first:
+      213: 4690649195594715791
+    second: NPC_NoMask Spritesheet_66
+  - first:
+      213: 3094774327789825104
+    second: NPC_NoMask Spritesheet_67
+  - first:
+      213: -1750158731761397251
+    second: NPC_NoMask Spritesheet_68
+  - first:
+      213: -1737904457152021033
+    second: NPC_NoMask Spritesheet_69
+  - first:
+      213: -1437635221861020931
+    second: NPC_NoMask Spritesheet_70
+  - first:
+      213: 2366192525380395595
+    second: NPC_NoMask Spritesheet_71
+  - first:
+      213: 3692843912847545386
+    second: NPC_NoMask Spritesheet_72
+  - first:
+      213: 4895965695233362203
+    second: NPC_NoMask Spritesheet_73
+  - first:
+      213: -4877432795152634823
+    second: NPC_NoMask Spritesheet_74
+  - first:
+      213: 2268312726020017257
+    second: NPC_NoMask Spritesheet_75
+  - first:
+      213: 8310972043484156759
+    second: NPC_NoMask Spritesheet_76
+  - first:
+      213: -7025243847445785277
+    second: NPC_NoMask Spritesheet_77
+  - first:
+      213: 446165843131663602
+    second: NPC_NoMask Spritesheet_78
+  - first:
+      213: -8556282533697676791
+    second: NPC_NoMask Spritesheet_79
+  - first:
+      213: -6119688632860087904
+    second: NPC_NoMask Spritesheet_80
+  - first:
+      213: -1931309213601667767
+    second: NPC_NoMask Spritesheet_81
+  - first:
+      213: -475438253635177667
+    second: NPC_NoMask Spritesheet_82
+  - first:
+      213: 7446409328722159311
+    second: NPC_NoMask Spritesheet_83
+  - first:
+      213: 7448853352319818195
+    second: NPC_NoMask Spritesheet_84
+  - first:
+      213: 2453542840969265653
+    second: NPC_NoMask Spritesheet_85
+  - first:
+      213: 3343665450442878146
+    second: NPC_NoMask Spritesheet_86
+  - first:
+      213: 7765240922470177110
+    second: NPC_NoMask Spritesheet_87
+  - first:
+      213: -2728289545955344502
+    second: NPC_NoMask Spritesheet_88
+  - first:
+      213: -4412909724295650354
+    second: NPC_NoMask Spritesheet_89
+  - first:
+      213: -1367791296890898169
+    second: NPC_NoMask Spritesheet_90
+  - first:
+      213: -2748477534230389425
+    second: NPC_NoMask Spritesheet_91
+  - first:
+      213: -9065531340584358817
+    second: NPC_NoMask Spritesheet_92
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: NPC_NoMask Spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1512
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24599d03f3b610580800000000000000
+      internalID: -8862684672541747902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_NoMask Spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1428
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb0fa182fdf96ad10800000000000000
+      internalID: 2136570854033256638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_NoMask Spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1428
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d951d180fc58a640800000000000000
+      internalID: 5091421566782233044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_NoMask Spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1428
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47328ed62d33d0a10800000000000000
+      internalID: 1877213598563443572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_NoMask Spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 1428
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 426765f8f4b4ecba0800000000000000
+      internalID: -6066828842942171612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_NoMask Spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1428
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62644502a8d4f2df0800000000000000
+      internalID: -202858202565163482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_NoMask Spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1428
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd52899380d165d10800000000000000
+      internalID: 2113908996260242911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_NoMask Spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 1428
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1233a3d2746d6a00800000000000000
+      internalID: 751367157180477979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_NoMask Spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1344
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b7dd58c81ea63420800000000000000
+      internalID: 2609464455571822512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_NoMask Spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1344
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc94cbef3e83590c0800000000000000
+      internalID: -4569683695015015988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_NoMask Spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1260
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1717f82a8593ee00800000000000000
+      internalID: 1072865556869617438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_NoMask Spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1260
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06dbab52588f2eb60800000000000000
+      internalID: 7774049157542231392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_NoMask Spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1260
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b22811c6b02e6fc80800000000000000
+      internalID: -8289189525443214805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_NoMask Spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 1260
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f963444aeee1bb250800000000000000
+      internalID: 5961392542061967007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_NoMask Spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1260
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2820deea8109f410800000000000000
+      internalID: 1511240846183245868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_NoMask Spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1260
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a5c2c549484d7220800000000000000
+      internalID: 2485222048918586790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_NoMask Spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 1260
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c3f369fd41f7e9b0800000000000000
+      internalID: -5050803139873868860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_NoMask Spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 1260
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87452af0150d316a0800000000000000
+      internalID: -6479606392282786696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_NoMask Spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1176
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25a6ac764b0988730800000000000000
+      internalID: 4001607373428517458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_NoMask Spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1092
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbfd7664be45ec380800000000000000
+      internalID: -8949122040063336517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_NoMask Spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1008
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d253ef3e867cc0e0800000000000000
+      internalID: -2248291760635424048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_NoMask Spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 924
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7fb58ecb6d39b080800000000000000
+      internalID: -9171231632927637635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_NoMask Spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 924
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebacb46592cd51b00800000000000000
+      internalID: 798786579027708606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_NoMask Spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 840
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6089dcc838e62000800000000000000
+      internalID: 10951379767623790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_NoMask Spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 840
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 123aeff5e9cbed850800000000000000
+      internalID: 6403763108568802081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_NoMask Spritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 840
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56fa0fc0eaabedd90800000000000000
+      internalID: -7071009108220924059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_NoMask Spritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 840
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29b6f4abfac541030800000000000000
+      internalID: 3464495923169553298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_NoMask Spritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 840
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ca1434cd21682ec0800000000000000
+      internalID: -3591513853634798904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_NoMask Spritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 840
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6277995c2546d6bc0800000000000000
+      internalID: -3788261404883454170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_NoMask Spritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 840
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74f2b4dc869313af0800000000000000
+      internalID: -418490168085106873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_NoMask Spritesheet_30
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 840
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f0c3ee0e5d056610800000000000000
+      internalID: 1613710739110084857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_NoMask Spritesheet_31
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 840
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00df9b61fde655d00800000000000000
+      internalID: 960795999951518976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_NoMask Spritesheet_32
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 840
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfa2de04c9a87d3b0800000000000000
+      internalID: -5487765217218843909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_NoMask Spritesheet_33
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 840
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 821f32fd10ca4b960800000000000000
+      internalID: 7616901993828970792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_NoMask Spritesheet_34
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 840
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e352d1fd623012a0800000000000000
+      internalID: -6768854792147938333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_NoMask Spritesheet_35
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 840
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e281df87716e9de0800000000000000
+      internalID: -1324514074258472224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_NoMask Spritesheet_36
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 840
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eea6e7463d13fa50800000000000000
+      internalID: 6553614001725943524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_NoMask Spritesheet_37
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 756
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a42dd87a0f98fdaa0800000000000000
+      internalID: -6134032500759080374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_NoMask Spritesheet_38
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 756
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 481eead46e17cbc60800000000000000
+      internalID: 7835262685677543812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_NoMask Spritesheet_39
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 756
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5896569c2fee8a8a0800000000000000
+      internalID: -6293517752721905275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_NoMask Spritesheet_40
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 756
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf1f2886e24ba06b0800000000000000
+      internalID: -5329249097624653317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_NoMask Spritesheet_41
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 756
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aace05f366f493f0800000000000000
+      internalID: -894819516766303580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_NoMask Spritesheet_42
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 756
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a499d5fba3f00b7d0800000000000000
+      internalID: -2904805014660867766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_NoMask Spritesheet_43
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 672
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 182fcead47288eb30800000000000000
+      internalID: 4316843681235399297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_NoMask Spritesheet_44
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 672
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec63ba71314dfd170800000000000000
+      internalID: 8205510224558896846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_NoMask Spritesheet_45
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 672
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af860cfc9c6a0f6b0800000000000000
+      internalID: -5264524578691979014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_NoMask Spritesheet_46
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 672
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6718dcbd039f6200800000000000000
+      internalID: 175520597702874986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_NoMask Spritesheet_47
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 672
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8a2b88a6fb56b770800000000000000
+      internalID: 8626183251222538891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_NoMask Spritesheet_48
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 672
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa112c4520c4db580800000000000000
+      internalID: -8809801723171171926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_NoMask Spritesheet_49
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 672
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57f462c447dac9570800000000000000
+      internalID: 8474839313809821557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_NoMask Spritesheet_50
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 672
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 101aab1c45fc60e10800000000000000
+      internalID: 2163644633932538113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_NoMask Spritesheet_51
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 588
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a7d6277dd43092a0800000000000000
+      internalID: -6732823317127440477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_NoMask Spritesheet_52
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 588
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 672c6e2cee7ac95e0800000000000000
+      internalID: -1901460298743233930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_NoMask Spritesheet_53
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 588
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 931e979ddcc1b66f0800000000000000
+      internalID: -690426447428722375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_NoMask Spritesheet_54
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 588
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e87017a1420356a0800000000000000
+      internalID: -6461818559347525401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_NoMask Spritesheet_55
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 588
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20e4121c71cb05e70800000000000000
+      internalID: 9101981657126227458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_NoMask Spritesheet_56
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 588
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4f8deca319ce0bc0800000000000000
+      internalID: -3814890747993419954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_NoMask Spritesheet_57
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 588
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cbc49f7efddc8770800000000000000
+      internalID: 8614504272384805824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_NoMask Spritesheet_58
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 588
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40c6dc0a4497e3d60800000000000000
+      internalID: 7871862534352759812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_NoMask Spritesheet_59
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 588
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7abbeb6038d483db0800000000000000
+      internalID: -4812010976696157273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_NoMask Spritesheet_60
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 588
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ab601fb72d2ae430800000000000000
+      internalID: 3812909683255045031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_NoMask Spritesheet_61
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 504
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a546b0f1ecbcf93e0800000000000000
+      internalID: -2044691619658374054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_NoMask Spritesheet_62
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 504
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef5e3003eab92c300800000000000000
+      internalID: 270950100027827710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_NoMask Spritesheet_63
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 504
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a82dad6628ee2290800000000000000
+      internalID: -7913132243496916832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_NoMask Spritesheet_64
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 504
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2689a1dd416e5380800000000000000
+      internalID: -8980633620072266194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_NoMask Spritesheet_65
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 420
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3e41855d7eae4970800000000000000
+      internalID: 8741115780101393983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_NoMask Spritesheet_66
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 420
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f82156d5798881140800000000000000
+      internalID: 4690649195594715791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_NoMask Spritesheet_67
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 420
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05c29e3bad8d2fa20800000000000000
+      internalID: 3094774327789825104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_NoMask Spritesheet_68
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 420
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df150dcf7ef26b7e0800000000000000
+      internalID: -1750158731761397251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_NoMask Spritesheet_69
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 336
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ddb2e1aa19b1e7e0800000000000000
+      internalID: -1737904457152021033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_NoMask Spritesheet_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 252
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfa4264f16e7c0ce0800000000000000
+      internalID: -1437635221861020931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_NoMask Spritesheet_71
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 252
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b42ab71b09766d020800000000000000
+      internalID: 2366192525380395595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_NoMask Spritesheet_72
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 252
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a24dd3429fd9f3330800000000000000
+      internalID: 3692843912847545386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_NoMask Spritesheet_73
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 252
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1902e02cd6f1f340800000000000000
+      internalID: 4895965695233362203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_NoMask Spritesheet_74
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 252
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93c261de6b0ef4cb0800000000000000
+      internalID: -4877432795152634823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_NoMask Spritesheet_75
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 252
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96ccbe1086aaa7f10800000000000000
+      internalID: 2268312726020017257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_NoMask Spritesheet_76
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 252
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75353164a01865370800000000000000
+      internalID: 8310972043484156759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_NoMask Spritesheet_77
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 252
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 345de7c21f1518e90800000000000000
+      internalID: -7025243847445785277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_NoMask Spritesheet_78
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 168
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f486ce6879113600800000000000000
+      internalID: 446165843131663602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_NoMask Spritesheet_79
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 168
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90a12156e5af14980800000000000000
+      internalID: -8556282533697676791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_NoMask Spritesheet_80
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 168
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a9e066ac9f721ba0800000000000000
+      internalID: -6119688632860087904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_NoMask Spritesheet_81
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 168
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94565d3b08c9235e0800000000000000
+      internalID: -1931309213601667767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_NoMask Spritesheet_82
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 168
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3371736d67e669f0800000000000000
+      internalID: -475438253635177667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_NoMask Spritesheet_83
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 168
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc6a3aae4d5f65760800000000000000
+      internalID: 7446409328722159311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_NoMask Spritesheet_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 84
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d9100188a4af5760800000000000000
+      internalID: 7448853352319818195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_NoMask Spritesheet_85
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 84
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f10d25e63cbc0220800000000000000
+      internalID: 2453542840969265653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_NoMask Spritesheet_86
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 84
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cce46df206176e20800000000000000
+      internalID: 3343665450442878146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_NoMask Spritesheet_87
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 84
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 659592b1a7da3cb60800000000000000
+      internalID: 7765240922470177110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_NoMask Spritesheet_88
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 84
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8f7be0fc1b232ad0800000000000000
+      internalID: -2728289545955344502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_NoMask Spritesheet_89
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 84
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec3ad718cf132c2c0800000000000000
+      internalID: -4412909724295650354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_NoMask Spritesheet_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70972f5ff01a40de0800000000000000
+      internalID: -1367791296890898169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_NoMask Spritesheet_91
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4d5e03ae327bd9d0800000000000000
+      internalID: -2748477534230389425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_NoMask Spritesheet_92
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5c6c48e643c03280800000000000000
+      internalID: -9065531340584358817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

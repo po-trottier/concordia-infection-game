@@ -3,7 +3,14 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Shop
+  - Door
+  - Floor
+  - Rail
+  - Stairs
+  - Entrance
+  - NPC
   layers:
   - Default
   - TransparentFX

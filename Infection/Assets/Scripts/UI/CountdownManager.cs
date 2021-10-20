@@ -1,15 +1,12 @@
 using System;
 using System.Timers;
+using Game;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class CountdownManager : MonoBehaviour
 {
-    [Header("Timer Parameters")]
-    [SerializeField] private float countdownTime = 60f;
-    [SerializeField] private float dangerTime = 10f;
-    
     [Header("Color Parameters")]
     [SerializeField] private Color healthyColor = Color.green;
     [SerializeField] private Color dangerColor = Color.red;
@@ -22,6 +19,7 @@ public class CountdownManager : MonoBehaviour
     [SerializeField] private Slider slider;
     [SerializeField] private Image image;
     [SerializeField] private TextMeshProUGUI textObject;
+    [SerializeField] private RoundManager roundManager;
 
     private Timer _timer;
     private float _timeLeft;
@@ -36,7 +34,7 @@ public class CountdownManager : MonoBehaviour
 
     private void Start()
     {
-        _timeLeft = countdownTime;
+        _timeLeft = roundManager.roundTotalTime;
         
         _timer = new Timer(1000);
         _timer.AutoReset = true;
@@ -52,11 +50,11 @@ public class CountdownManager : MonoBehaviour
 
     private void FixedUpdate()
     {
-        slider.value = Mathf.Lerp(slider.value, _timeLeft / countdownTime, animationTime * Time.fixedDeltaTime);
+        slider.value = Mathf.Lerp(slider.value, _timeLeft / roundManager.roundTotalTime, animationTime * Time.fixedDeltaTime);
 
         textObject.text = String.Format(timeRemainingText, _timeLeft);
         
-        if (_timeLeft < dangerTime)
+        if (_timeLeft < roundManager.roundDangerTime)
         {
             image.color = dangerColor;
         }

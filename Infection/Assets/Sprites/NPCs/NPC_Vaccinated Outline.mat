@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Outline
+  m_Name: NPC_Vaccinated Outline
   m_Shader: {fileID: 4800000, guid: 62505ee61d20098489c6f861ed25cce1, type: 3}
   m_ShaderKeywords: _OUTLINEENABLED_ON _OUTLINEMODE_GRADIENT _OUTLINEPOSITION_INSIDE_UNDER_SPRITE
     _OUTLINESHAPE_CONTOUR _TILEMODE_STRETCH
@@ -56,9 +56,9 @@ Material:
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _Flip: {r: 1, g: 1, b: 1, a: 1}
-    - _GradientOutline1: {r: 0.2509804, g: 0.2509804, b: 0.2509804, a: 1}
-    - _GradientOutline2: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 0.5019608}
+    - _GradientOutline1: {r: 0, g: 0.08999553, b: 0.3207547, a: 1}
+    - _GradientOutline2: {r: 0, g: 0.67048645, b: 1, a: 0.5019608}
     - _ImageOutline: {r: 1, g: 1, b: 1, a: 1}
     - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
-    - _SolidOutline: {r: 0.4528302, g: 0.4528302, b: 0.4528302, a: 0.5019608}
+    - _SolidOutline: {r: 0, g: 0.25626215, b: 0.4811321, a: 0.5019608}
   m_BuildTextureStacks: []

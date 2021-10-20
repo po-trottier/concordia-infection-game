@@ -1,0 +1,2352 @@
+fileFormatVersion: 2
+guid: 243ba13df861efd4dbd43b17d260077a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2618792057778963449
+    second: NPC_Mask Spritesheet_0
+  - first:
+      213: 4541717856175928614
+    second: NPC_Mask Spritesheet_1
+  - first:
+      213: -1251839143364990639
+    second: NPC_Mask Spritesheet_2
+  - first:
+      213: -8494918760951503252
+    second: NPC_Mask Spritesheet_3
+  - first:
+      213: -3591785113723525880
+    second: NPC_Mask Spritesheet_4
+  - first:
+      213: 6366921724960818826
+    second: NPC_Mask Spritesheet_5
+  - first:
+      213: 6846418674440307281
+    second: NPC_Mask Spritesheet_6
+  - first:
+      213: 5317699258964855730
+    second: NPC_Mask Spritesheet_7
+  - first:
+      213: -4433418215932834394
+    second: NPC_Mask Spritesheet_8
+  - first:
+      213: -6895554455624371916
+    second: NPC_Mask Spritesheet_9
+  - first:
+      213: -6867486224400639453
+    second: NPC_Mask Spritesheet_10
+  - first:
+      213: -3763005479111165610
+    second: NPC_Mask Spritesheet_11
+  - first:
+      213: -1475374462855553793
+    second: NPC_Mask Spritesheet_12
+  - first:
+      213: 1411628485274926871
+    second: NPC_Mask Spritesheet_13
+  - first:
+      213: -3370286940010919522
+    second: NPC_Mask Spritesheet_14
+  - first:
+      213: 1375148971114863009
+    second: NPC_Mask Spritesheet_15
+  - first:
+      213: 312972501989676291
+    second: NPC_Mask Spritesheet_16
+  - first:
+      213: -7086369223292326187
+    second: NPC_Mask Spritesheet_17
+  - first:
+      213: -6672481030599625729
+    second: NPC_Mask Spritesheet_18
+  - first:
+      213: -6579105973325722783
+    second: NPC_Mask Spritesheet_19
+  - first:
+      213: -2727768515429377082
+    second: NPC_Mask Spritesheet_20
+  - first:
+      213: -240923183911072588
+    second: NPC_Mask Spritesheet_21
+  - first:
+      213: 3689137965718454968
+    second: NPC_Mask Spritesheet_22
+  - first:
+      213: -59204238981571421
+    second: NPC_Mask Spritesheet_23
+  - first:
+      213: 6708009851080852150
+    second: NPC_Mask Spritesheet_24
+  - first:
+      213: 8399049803397502210
+    second: NPC_Mask Spritesheet_25
+  - first:
+      213: -3210035483499764791
+    second: NPC_Mask Spritesheet_26
+  - first:
+      213: -6791192432557319237
+    second: NPC_Mask Spritesheet_27
+  - first:
+      213: -5770007184661818962
+    second: NPC_Mask Spritesheet_28
+  - first:
+      213: 5247389992925275028
+    second: NPC_Mask Spritesheet_29
+  - first:
+      213: 8158395036027091801
+    second: NPC_Mask Spritesheet_30
+  - first:
+      213: -2816965688278472091
+    second: NPC_Mask Spritesheet_31
+  - first:
+      213: 3178469469796132243
+    second: NPC_Mask Spritesheet_32
+  - first:
+      213: 8356769258945022533
+    second: NPC_Mask Spritesheet_33
+  - first:
+      213: 6535950561225302629
+    second: NPC_Mask Spritesheet_34
+  - first:
+      213: 4492052301920554905
+    second: NPC_Mask Spritesheet_35
+  - first:
+      213: -7422771900571714592
+    second: NPC_Mask Spritesheet_36
+  - first:
+      213: 2384594410721425674
+    second: NPC_Mask Spritesheet_37
+  - first:
+      213: 8263940787491169623
+    second: NPC_Mask Spritesheet_38
+  - first:
+      213: -6756614023300161421
+    second: NPC_Mask Spritesheet_39
+  - first:
+      213: 6458435635674805797
+    second: NPC_Mask Spritesheet_40
+  - first:
+      213: 3354495467182972021
+    second: NPC_Mask Spritesheet_41
+  - first:
+      213: 7264379039250294442
+    second: NPC_Mask Spritesheet_42
+  - first:
+      213: 1275326076866588946
+    second: NPC_Mask Spritesheet_43
+  - first:
+      213: 5382616025971421032
+    second: NPC_Mask Spritesheet_44
+  - first:
+      213: -6300734272788817949
+    second: NPC_Mask Spritesheet_45
+  - first:
+      213: 8407860947698827926
+    second: NPC_Mask Spritesheet_46
+  - first:
+      213: 1154016052921259687
+    second: NPC_Mask Spritesheet_47
+  - first:
+      213: -4821734240525070159
+    second: NPC_Mask Spritesheet_48
+  - first:
+      213: 5077971473876602684
+    second: NPC_Mask Spritesheet_49
+  - first:
+      213: -1859797794167862718
+    second: NPC_Mask Spritesheet_50
+  - first:
+      213: 3845739195097014730
+    second: NPC_Mask Spritesheet_51
+  - first:
+      213: 3294488470195658608
+    second: NPC_Mask Spritesheet_52
+  - first:
+      213: 3720454253308582907
+    second: NPC_Mask Spritesheet_53
+  - first:
+      213: -1547487605389951485
+    second: NPC_Mask Spritesheet_54
+  - first:
+      213: 7057465995780886450
+    second: NPC_Mask Spritesheet_55
+  - first:
+      213: 7241479401901109904
+    second: NPC_Mask Spritesheet_56
+  - first:
+      213: -4165862966965343689
+    second: NPC_Mask Spritesheet_57
+  - first:
+      213: -1768370128173643291
+    second: NPC_Mask Spritesheet_58
+  - first:
+      213: 7621657173681538163
+    second: NPC_Mask Spritesheet_59
+  - first:
+      213: -4359653486183302895
+    second: NPC_Mask Spritesheet_60
+  - first:
+      213: -7513393979888122956
+    second: NPC_Mask Spritesheet_61
+  - first:
+      213: 991770843327120864
+    second: NPC_Mask Spritesheet_62
+  - first:
+      213: -3205496398957630056
+    second: NPC_Mask Spritesheet_63
+  - first:
+      213: 9134896338665929160
+    second: NPC_Mask Spritesheet_64
+  - first:
+      213: 6942433649360234210
+    second: NPC_Mask Spritesheet_65
+  - first:
+      213: 5669015881614931900
+    second: NPC_Mask Spritesheet_66
+  - first:
+      213: 4217902782132974097
+    second: NPC_Mask Spritesheet_67
+  - first:
+      213: 512983608756685228
+    second: NPC_Mask Spritesheet_68
+  - first:
+      213: -3733931428707756708
+    second: NPC_Mask Spritesheet_69
+  - first:
+      213: -1229182198939610238
+    second: NPC_Mask Spritesheet_70
+  - first:
+      213: -4035997995090498721
+    second: NPC_Mask Spritesheet_71
+  - first:
+      213: 7287788126029859481
+    second: NPC_Mask Spritesheet_72
+  - first:
+      213: 2946481441784751953
+    second: NPC_Mask Spritesheet_73
+  - first:
+      213: 2934702540199157336
+    second: NPC_Mask Spritesheet_74
+  - first:
+      213: -5023265080660378308
+    second: NPC_Mask Spritesheet_75
+  - first:
+      213: -5947829298951386581
+    second: NPC_Mask Spritesheet_76
+  - first:
+      213: -7308850320023705994
+    second: NPC_Mask Spritesheet_77
+  - first:
+      213: -1184573730166122674
+    second: NPC_Mask Spritesheet_78
+  - first:
+      213: -4766645318395641871
+    second: NPC_Mask Spritesheet_79
+  - first:
+      213: 6030449618976626823
+    second: NPC_Mask Spritesheet_80
+  - first:
+      213: -5053891640314489920
+    second: NPC_Mask Spritesheet_81
+  - first:
+      213: 4013119994111660972
+    second: NPC_Mask Spritesheet_82
+  - first:
+      213: 1092909936238808092
+    second: NPC_Mask Spritesheet_83
+  - first:
+      213: 5654232955679704563
+    second: NPC_Mask Spritesheet_84
+  - first:
+      213: 4134096878657434806
+    second: NPC_Mask Spritesheet_85
+  - first:
+      213: 4484985951326136294
+    second: NPC_Mask Spritesheet_86
+  - first:
+      213: 2799444527261496562
+    second: NPC_Mask Spritesheet_87
+  - first:
+      213: -1434111522482868626
+    second: NPC_Mask Spritesheet_88
+  - first:
+      213: -4446853439360535529
+    second: NPC_Mask Spritesheet_89
+  - first:
+      213: 372296028902298287
+    second: NPC_Mask Spritesheet_90
+  - first:
+      213: 481830669726228050
+    second: NPC_Mask Spritesheet_91
+  - first:
+      213: 6433588987709870155
+    second: NPC_Mask Spritesheet_92
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: NPC_Mask Spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1512
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70c78779f7e28abd0800000000000000
+      internalID: -2618792057778963449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Mask Spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1428
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6253a6fb35c670f30800000000000000
+      internalID: 4541717856175928614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Mask Spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1428
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 159eccf7ee290aee0800000000000000
+      internalID: -1251839143364990639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Mask Spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1428
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c662fa9156cfb1a80800000000000000
+      internalID: -8494918760951503252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Mask Spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 1428
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80529fa187a672ec0800000000000000
+      internalID: -3591785113723525880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Mask Spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1428
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a86c1015399db5850800000000000000
+      internalID: 6366921724960818826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Mask Spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1428
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1528d91b28d530f50800000000000000
+      internalID: 6846418674440307281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Mask Spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 1428
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bb45f83d434cc940800000000000000
+      internalID: 5317699258964855730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Mask Spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1344
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6adc3923f955972c0800000000000000
+      internalID: -4433418215932834394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Mask Spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1344
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 431b52fb1c11e40a0800000000000000
+      internalID: -6895554455624371916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Mask Spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1260
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32a16b61aa9c1b0a0800000000000000
+      internalID: -6867486224400639453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Mask Spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1260
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 659fab9347e17cbc0800000000000000
+      internalID: -3763005479111165610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Mask Spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1260
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffcdfce2eba668be0800000000000000
+      internalID: -1475374462855553793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Mask Spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 1260
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71f72a3d0ac179310800000000000000
+      internalID: 1411628485274926871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Mask Spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1260
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e99c28572e55a31d0800000000000000
+      internalID: -3370286940010919522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Mask Spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1260
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a99b8014b2851310800000000000000
+      internalID: 1375148971114863009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Mask Spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 1260
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3055f8515d6e75400800000000000000
+      internalID: 312972501989676291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Mask Spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 1260
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5de66629cb828ad90800000000000000
+      internalID: -7086369223292326187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Mask Spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1176
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff3b390ead59663a0800000000000000
+      internalID: -6672481030599625729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Mask Spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1092
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16b054099f152b4a0800000000000000
+      internalID: -6579105973325722783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Mask Spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1008
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cb5650dcf4052ad0800000000000000
+      internalID: -2727768515429377082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Mask Spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 924
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bc03d404a118acf0800000000000000
+      internalID: -240923183911072588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Mask Spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 924
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b24e061f63723330800000000000000
+      internalID: 3689137965718454968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Mask Spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 840
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ac5e4eee0aad2ff0800000000000000
+      internalID: -59204238981571421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Mask Spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 840
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b2ce734b63a71d50800000000000000
+      internalID: 6708009851080852150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Mask Spritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 840
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 205925ecb4b6f8470800000000000000
+      internalID: 8399049803397502210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Mask Spritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 840
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c3e8993cb9a373d0800000000000000
+      internalID: -3210035483499764791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Mask Spritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 840
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbb9910c676d0c1a0800000000000000
+      internalID: -6791192432557319237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Mask Spritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 840
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea1d7ce4901dcefa0800000000000000
+      internalID: -5770007184661818962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Mask Spritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 840
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 493204e856972d840800000000000000
+      internalID: 5247389992925275028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Mask Spritesheet_30
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 840
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95b74bb6f01783170800000000000000
+      internalID: 8158395036027091801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Mask Spritesheet_31
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 840
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56aa2b5a1a028e8d0800000000000000
+      internalID: -2816965688278472091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Mask Spritesheet_32
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 840
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3956f9c74213c1c20800000000000000
+      internalID: 3178469469796132243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Mask Spritesheet_33
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 840
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54a825d6d5539f370800000000000000
+      internalID: 8356769258945022533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Mask Spritesheet_34
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 840
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 562695f086c54ba50800000000000000
+      internalID: 6535950561225302629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Mask Spritesheet_35
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 840
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99f4378c4c9f65e30800000000000000
+      internalID: 4492052301920554905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Mask Spritesheet_36
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 840
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ebfba1b8440df890800000000000000
+      internalID: -7422771900571714592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Mask Spritesheet_37
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 756
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a09be608bf7c71120800000000000000
+      internalID: 2384594410721425674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Mask Spritesheet_38
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 756
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 755e54bac5a6fa270800000000000000
+      internalID: 8263940787491169623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Mask Spritesheet_39
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 756
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37065c8085fab32a0800000000000000
+      internalID: -6756614023300161421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Mask Spritesheet_40
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 756
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 526fe1d0ef8f0a950800000000000000
+      internalID: 6458435635674805797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Mask Spritesheet_41
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 756
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57c5912cadf8d8e20800000000000000
+      internalID: 3354495467182972021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Mask Spritesheet_42
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 756
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa6ae447f3240d460800000000000000
+      internalID: 7264379039250294442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Mask Spritesheet_43
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 672
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 211fc685f4ed2b110800000000000000
+      internalID: 1275326076866588946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Mask Spritesheet_44
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 672
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86fe95ed1c4e2ba40800000000000000
+      internalID: 5382616025971421032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Mask Spritesheet_45
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 672
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e71b46cf8b4f88a0800000000000000
+      internalID: -6300734272788817949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Mask Spritesheet_46
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 672
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 692c7743cf8bea470800000000000000
+      internalID: 8407860947698827926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Mask Spritesheet_47
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 672
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a658736c73e30010800000000000000
+      internalID: 1154016052921259687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Mask Spritesheet_48
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 672
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b05a204142c51db0800000000000000
+      internalID: -4821734240525070159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Mask Spritesheet_49
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 672
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3f4bf7b624987640800000000000000
+      internalID: 5077971473876602684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Mask Spritesheet_50
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 672
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24ac19482cba036e0800000000000000
+      internalID: -1859797794167862718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Mask Spritesheet_51
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 588
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac1ed8e1c6fce5530800000000000000
+      internalID: 3845739195097014730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Mask Spritesheet_52
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 588
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07fd1a60fcf58bd20800000000000000
+      internalID: 3294488470195658608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Mask Spritesheet_53
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 588
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfb9c8b7e65b1a330800000000000000
+      internalID: 3720454253308582907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Mask Spritesheet_54
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 588
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30e796ac838368ae0800000000000000
+      internalID: -1547487605389951485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Mask Spritesheet_55
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 588
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bf0bec5ee721f160800000000000000
+      internalID: 7057465995780886450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Mask Spritesheet_56
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 588
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 092bf962627ee7460800000000000000
+      internalID: 7241479401901109904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Mask Spritesheet_57
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 588
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73a631704b1ef26c0800000000000000
+      internalID: -4165862966965343689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Mask Spritesheet_58
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 588
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e94cc6dcbc7577e0800000000000000
+      internalID: -1768370128173643291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Mask Spritesheet_59
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 588
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 374881571d095c960800000000000000
+      internalID: 7621657173681538163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Mask Spritesheet_60
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 588
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1193044b0466f73c0800000000000000
+      internalID: -4359653486183302895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Mask Spritesheet_61
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 504
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b3c533abff0bb790800000000000000
+      internalID: -7513393979888122956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Mask Spritesheet_62
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 504
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e54a1fc35a73cd00800000000000000
+      internalID: 991770843327120864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Mask Spritesheet_63
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 504
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89d2653320ac383d0800000000000000
+      internalID: -3205496398957630056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Mask Spritesheet_64
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 504
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c9f23e32dba5ce70800000000000000
+      internalID: 9134896338665929160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Mask Spritesheet_65
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 420
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e6e5da1f9a785060800000000000000
+      internalID: 6942433649360234210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Mask Spritesheet_66
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 420
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb7b4b998e36cae40800000000000000
+      internalID: 5669015881614931900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Mask Spritesheet_67
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 420
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 112fa22ab30098a30800000000000000
+      internalID: 4217902782132974097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Mask Spritesheet_68
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 420
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca94a8fcfdb7e1700800000000000000
+      internalID: 512983608756685228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Mask Spritesheet_69
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 336
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c55153816296e2cc0800000000000000
+      internalID: -3733931428707756708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Mask Spritesheet_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 252
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28398f37d4111fee0800000000000000
+      internalID: -1229182198939610238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Mask Spritesheet_71
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 252
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5b217405314df7c0800000000000000
+      internalID: -4035997995090498721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Mask Spritesheet_72
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 252
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99ac15230bc632560800000000000000
+      internalID: 7287788126029859481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Mask Spritesheet_73
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 252
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1576cda924104e820800000000000000
+      internalID: 2946481441784751953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Mask Spritesheet_74
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 252
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85ed10e59682ab820800000000000000
+      internalID: 2934702540199157336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Mask Spritesheet_75
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 252
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3d3d960607c94ab0800000000000000
+      internalID: -5023265080660378308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Mask Spritesheet_76
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 252
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2a875bf3c0157da0800000000000000
+      internalID: -5947829298951386581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Mask Spritesheet_77
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 252
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 676ac7e9b5fb19a90800000000000000
+      internalID: -7308850320023705994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Mask Spritesheet_78
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 168
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e475033f77c8f8fe0800000000000000
+      internalID: -1184573730166122674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Mask Spritesheet_79
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 168
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ffbfb2765979ddb0800000000000000
+      internalID: -4766645318395641871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Mask Spritesheet_80
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 168
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 788ddfe4af570b350800000000000000
+      internalID: 6030449618976626823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Mask Spritesheet_81
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 168
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c31dbd6458fcd9b0800000000000000
+      internalID: -5053891640314489920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Mask Spritesheet_82
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 168
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca31b0a4f5771b730800000000000000
+      internalID: 4013119994111660972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Mask Spritesheet_83
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 168
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1c4209ebcbca2f00800000000000000
+      internalID: 1092909936238808092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Mask Spritesheet_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 84
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f588907aeed77e40800000000000000
+      internalID: 5654232955679704563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Mask Spritesheet_85
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 84
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b47d6f25334f5930800000000000000
+      internalID: 4134096878657434806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Mask Spritesheet_86
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 84
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e76963d5fedd3e30800000000000000
+      internalID: 4484985951326136294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Mask Spritesheet_87
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 84
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f435d727ff99d620800000000000000
+      internalID: 2799444527261496562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Mask Spritesheet_88
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 84
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6e2d162b23091ce0800000000000000
+      internalID: -1434111522482868626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Mask Spritesheet_89
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 84
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 714f0ba7b5a9942c0800000000000000
+      internalID: -4446853439360535529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Mask Spritesheet_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa2920a0449aa2500800000000000000
+      internalID: 372296028902298287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Mask Spritesheet_91
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25e9be6f07ecfa600800000000000000
+      internalID: 481830669726228050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Mask Spritesheet_92
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b40df430913b84950800000000000000
+      internalID: 6433588987709870155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

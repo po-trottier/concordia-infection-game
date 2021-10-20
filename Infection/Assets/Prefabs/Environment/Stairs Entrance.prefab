@@ -19,7 +19,7 @@ GameObject:
   - component: {fileID: 359155017571317978}
   m_Layer: 7
   m_Name: Stairs Entrance
-  m_TagString: Untagged
+  m_TagString: Entrance
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -265,7 +265,7 @@ GameObject:
   - component: {fileID: 2948544479772957499}
   m_Layer: 10
   m_Name: Stairs
-  m_TagString: Untagged
+  m_TagString: Stairs
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

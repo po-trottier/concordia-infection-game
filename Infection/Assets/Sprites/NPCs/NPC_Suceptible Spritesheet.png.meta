@@ -1,0 +1,2352 @@
+fileFormatVersion: 2
+guid: 8a8f733c0cbaac04fb62a60c67fbc8ea
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -640086540233870035
+    second: NPC_Suceptible Spritesheet_0
+  - first:
+      213: 4353781123992064080
+    second: NPC_Suceptible Spritesheet_1
+  - first:
+      213: -5405716647358686476
+    second: NPC_Suceptible Spritesheet_2
+  - first:
+      213: -8927401282576887200
+    second: NPC_Suceptible Spritesheet_3
+  - first:
+      213: 4512033010837577546
+    second: NPC_Suceptible Spritesheet_4
+  - first:
+      213: -2126446330619673528
+    second: NPC_Suceptible Spritesheet_5
+  - first:
+      213: 5929284044917903307
+    second: NPC_Suceptible Spritesheet_6
+  - first:
+      213: 3026863951660583598
+    second: NPC_Suceptible Spritesheet_7
+  - first:
+      213: -8701520356707675213
+    second: NPC_Suceptible Spritesheet_8
+  - first:
+      213: -8722533628212562553
+    second: NPC_Suceptible Spritesheet_9
+  - first:
+      213: 5615032023371390778
+    second: NPC_Suceptible Spritesheet_10
+  - first:
+      213: -7513606447690736798
+    second: NPC_Suceptible Spritesheet_11
+  - first:
+      213: 7548945944127808280
+    second: NPC_Suceptible Spritesheet_12
+  - first:
+      213: -316782419901859031
+    second: NPC_Suceptible Spritesheet_13
+  - first:
+      213: 8110729053144668346
+    second: NPC_Suceptible Spritesheet_14
+  - first:
+      213: -7847547392223438221
+    second: NPC_Suceptible Spritesheet_15
+  - first:
+      213: -2017285555450014809
+    second: NPC_Suceptible Spritesheet_16
+  - first:
+      213: 7802086081588355425
+    second: NPC_Suceptible Spritesheet_17
+  - first:
+      213: 7773447444642421351
+    second: NPC_Suceptible Spritesheet_18
+  - first:
+      213: 2623677983050417245
+    second: NPC_Suceptible Spritesheet_19
+  - first:
+      213: -4190688045898277704
+    second: NPC_Suceptible Spritesheet_20
+  - first:
+      213: 7298873428351756450
+    second: NPC_Suceptible Spritesheet_21
+  - first:
+      213: 6014615034815247500
+    second: NPC_Suceptible Spritesheet_22
+  - first:
+      213: 8891350785919381828
+    second: NPC_Suceptible Spritesheet_23
+  - first:
+      213: 5954088873192611471
+    second: NPC_Suceptible Spritesheet_24
+  - first:
+      213: -3835976262458241506
+    second: NPC_Suceptible Spritesheet_25
+  - first:
+      213: -7049923368138223672
+    second: NPC_Suceptible Spritesheet_26
+  - first:
+      213: -6823437649789335841
+    second: NPC_Suceptible Spritesheet_27
+  - first:
+      213: -1138995080181292534
+    second: NPC_Suceptible Spritesheet_28
+  - first:
+      213: 4349213584799666493
+    second: NPC_Suceptible Spritesheet_29
+  - first:
+      213: -1236415961239384148
+    second: NPC_Suceptible Spritesheet_30
+  - first:
+      213: -1694309847488449971
+    second: NPC_Suceptible Spritesheet_31
+  - first:
+      213: -4456104426702912028
+    second: NPC_Suceptible Spritesheet_32
+  - first:
+      213: -11079241768713030
+    second: NPC_Suceptible Spritesheet_33
+  - first:
+      213: 6132394126988431962
+    second: NPC_Suceptible Spritesheet_34
+  - first:
+      213: -4745181005097321337
+    second: NPC_Suceptible Spritesheet_35
+  - first:
+      213: -7385674171776171526
+    second: NPC_Suceptible Spritesheet_36
+  - first:
+      213: -9126303098660442042
+    second: NPC_Suceptible Spritesheet_37
+  - first:
+      213: -6312035707319059831
+    second: NPC_Suceptible Spritesheet_38
+  - first:
+      213: 3322878248702128399
+    second: NPC_Suceptible Spritesheet_39
+  - first:
+      213: 7720123847562510943
+    second: NPC_Suceptible Spritesheet_40
+  - first:
+      213: -6042031215829722652
+    second: NPC_Suceptible Spritesheet_41
+  - first:
+      213: -4017738539457820070
+    second: NPC_Suceptible Spritesheet_42
+  - first:
+      213: 8566589287459676928
+    second: NPC_Suceptible Spritesheet_43
+  - first:
+      213: -2428288305146530897
+    second: NPC_Suceptible Spritesheet_44
+  - first:
+      213: 5034508010351787354
+    second: NPC_Suceptible Spritesheet_45
+  - first:
+      213: 1910041680227294819
+    second: NPC_Suceptible Spritesheet_46
+  - first:
+      213: -5135229162516788402
+    second: NPC_Suceptible Spritesheet_47
+  - first:
+      213: 8289785454550367118
+    second: NPC_Suceptible Spritesheet_48
+  - first:
+      213: -6948720128960169550
+    second: NPC_Suceptible Spritesheet_49
+  - first:
+      213: 879008030490992804
+    second: NPC_Suceptible Spritesheet_50
+  - first:
+      213: 8254895708751110441
+    second: NPC_Suceptible Spritesheet_51
+  - first:
+      213: -9068381677774261843
+    second: NPC_Suceptible Spritesheet_52
+  - first:
+      213: 8703993488306832359
+    second: NPC_Suceptible Spritesheet_53
+  - first:
+      213: -2208976133424063599
+    second: NPC_Suceptible Spritesheet_54
+  - first:
+      213: 1169572619306088481
+    second: NPC_Suceptible Spritesheet_55
+  - first:
+      213: -4946232736276358398
+    second: NPC_Suceptible Spritesheet_56
+  - first:
+      213: -4089766671022288697
+    second: NPC_Suceptible Spritesheet_57
+  - first:
+      213: 2122746114634068007
+    second: NPC_Suceptible Spritesheet_58
+  - first:
+      213: 8321694704838004629
+    second: NPC_Suceptible Spritesheet_59
+  - first:
+      213: 2197252474116508698
+    second: NPC_Suceptible Spritesheet_60
+  - first:
+      213: 7082594692442328192
+    second: NPC_Suceptible Spritesheet_61
+  - first:
+      213: 7589466520446395563
+    second: NPC_Suceptible Spritesheet_62
+  - first:
+      213: 3128262387265356134
+    second: NPC_Suceptible Spritesheet_63
+  - first:
+      213: 883616284034080771
+    second: NPC_Suceptible Spritesheet_64
+  - first:
+      213: 377601737763102025
+    second: NPC_Suceptible Spritesheet_65
+  - first:
+      213: 5964049671905423645
+    second: NPC_Suceptible Spritesheet_66
+  - first:
+      213: 5390695112526790167
+    second: NPC_Suceptible Spritesheet_67
+  - first:
+      213: 1069741902064833956
+    second: NPC_Suceptible Spritesheet_68
+  - first:
+      213: -4280267011438701032
+    second: NPC_Suceptible Spritesheet_69
+  - first:
+      213: -62572924091964203
+    second: NPC_Suceptible Spritesheet_70
+  - first:
+      213: 6042933356053555595
+    second: NPC_Suceptible Spritesheet_71
+  - first:
+      213: 6137746133182945197
+    second: NPC_Suceptible Spritesheet_72
+  - first:
+      213: -6656846934352680164
+    second: NPC_Suceptible Spritesheet_73
+  - first:
+      213: -1857966319356800286
+    second: NPC_Suceptible Spritesheet_74
+  - first:
+      213: 5595069389775417686
+    second: NPC_Suceptible Spritesheet_75
+  - first:
+      213: 6507557807164427691
+    second: NPC_Suceptible Spritesheet_76
+  - first:
+      213: 7427880667531712766
+    second: NPC_Suceptible Spritesheet_77
+  - first:
+      213: 2130430283775361743
+    second: NPC_Suceptible Spritesheet_78
+  - first:
+      213: 1879027769741622928
+    second: NPC_Suceptible Spritesheet_79
+  - first:
+      213: -3188193032783002079
+    second: NPC_Suceptible Spritesheet_80
+  - first:
+      213: 1297591536797386048
+    second: NPC_Suceptible Spritesheet_81
+  - first:
+      213: 345229663894622564
+    second: NPC_Suceptible Spritesheet_82
+  - first:
+      213: -2752661471440193032
+    second: NPC_Suceptible Spritesheet_83
+  - first:
+      213: 123823988900346908
+    second: NPC_Suceptible Spritesheet_84
+  - first:
+      213: 1124773914955464691
+    second: NPC_Suceptible Spritesheet_85
+  - first:
+      213: -7912201433129295170
+    second: NPC_Suceptible Spritesheet_86
+  - first:
+      213: 7504403981648277582
+    second: NPC_Suceptible Spritesheet_87
+  - first:
+      213: -3793238360851037856
+    second: NPC_Suceptible Spritesheet_88
+  - first:
+      213: -3374617689232270286
+    second: NPC_Suceptible Spritesheet_89
+  - first:
+      213: 5834966882802611678
+    second: NPC_Suceptible Spritesheet_90
+  - first:
+      213: 3484069763475522387
+    second: NPC_Suceptible Spritesheet_91
+  - first:
+      213: -8018274013155096312
+    second: NPC_Suceptible Spritesheet_92
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: NPC_Suceptible Spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1512
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d25f9d7dea4fd17f0800000000000000
+      internalID: -640086540233870035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Suceptible Spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1428
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 050195d6ddcbb6c30800000000000000
+      internalID: 4353781123992064080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Suceptible Spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1428
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fa15c599590bf4b0800000000000000
+      internalID: -5405716647358686476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Suceptible Spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1428
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06253a835df7b1480800000000000000
+      internalID: -8927401282576887200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Suceptible Spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 1428
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4f5fc91e16fd9e30800000000000000
+      internalID: 4512033010837577546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Suceptible Spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1428
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8444b7524585d72e0800000000000000
+      internalID: -2126446330619673528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Suceptible Spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1428
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcf09b59c6c094250800000000000000
+      internalID: 5929284044917903307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Suceptible Spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 1428
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaa0a2e1ab4910a20800000000000000
+      internalID: 3026863951660583598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Suceptible Spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1344
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b3db94965dfd3780800000000000000
+      internalID: -8701520356707675213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Suceptible Spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1344
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 785bdfc01e553f680800000000000000
+      internalID: -8722533628212562553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Suceptible Spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1260
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3f9e7320e99ced40800000000000000
+      internalID: 5615032023371390778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Suceptible Spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1260
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26b1f4f9ebe4ab790800000000000000
+      internalID: -7513606447690736798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Suceptible Spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1260
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8132d54175e33c860800000000000000
+      internalID: 7548945944127808280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Suceptible Spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 1260
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92b39a641109a9bf0800000000000000
+      internalID: -316782419901859031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Suceptible Spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1260
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab8d022f9191f8070800000000000000
+      internalID: 8110729053144668346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Suceptible Spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1260
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37a9a709939e71390800000000000000
+      internalID: -7847547392223438221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Suceptible Spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 1260
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a310e0b9792104e0800000000000000
+      internalID: -2017285555450014809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Suceptible Spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 1260
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 161e71834f3964c60800000000000000
+      internalID: 7802086081588355425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Suceptible Spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1176
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76a5412f345d0eb60800000000000000
+      internalID: 7773447444642421351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Suceptible Spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1092
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d54cbb8893d296420800000000000000
+      internalID: 2623677983050417245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Suceptible Spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1008
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bcd1cbec6fa7d5c0800000000000000
+      internalID: -4190688045898277704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Suceptible Spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 924
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a8a17546beca4560800000000000000
+      internalID: 7298873428351756450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Suceptible Spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 924
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c84f2e2e184387350800000000000000
+      internalID: 6014615034815247500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Suceptible Spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 840
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4417d107e6c646b70800000000000000
+      internalID: 8891350785919381828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Suceptible Spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 840
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8e50c7b84c21a250800000000000000
+      internalID: 5954088873192611471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Suceptible Spritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 840
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1e8855c9efd3cac0800000000000000
+      internalID: -3835976262458241506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Suceptible Spritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 840
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cf456c7c04a92e90800000000000000
+      internalID: -7049923368138223672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Suceptible Spritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 840
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd6c7411c974e41a0800000000000000
+      internalID: -6823437649789335841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Suceptible Spritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 840
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0260ec520a7130f0800000000000000
+      internalID: -1138995080181292534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Suceptible Spritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 840
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d31994656b28b5c30800000000000000
+      internalID: 4349213584799666493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Suceptible Spritesheet_30
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 840
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caf04bbeb3e57dee0800000000000000
+      internalID: -1236415961239384148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Suceptible Spritesheet_31
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 840
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d423109ab2a9c78e0800000000000000
+      internalID: -1694309847488449971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Suceptible Spritesheet_32
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 840
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e5c35422acb822c0800000000000000
+      internalID: -4456104426702912028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Suceptible Spritesheet_33
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 840
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab4cef10d73a8dff0800000000000000
+      internalID: -11079241768713030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Suceptible Spritesheet_34
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 840
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5256d9b7f3aa1550800000000000000
+      internalID: 6132394126988431962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Suceptible Spritesheet_35
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 840
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78c3e34540bb52eb0800000000000000
+      internalID: -4745181005097321337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Suceptible Spritesheet_36
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 840
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af10184c870d08990800000000000000
+      internalID: -7385674171776171526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Suceptible Spritesheet_37
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 756
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6403ccb5fabd85180800000000000000
+      internalID: -9126303098660442042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Suceptible Spritesheet_38
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 756
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98a7aaf77f42768a0800000000000000
+      internalID: -6312035707319059831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Suceptible Spritesheet_39
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 756
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0133cd692c3d1e20800000000000000
+      internalID: 3322878248702128399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Suceptible Spritesheet_40
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 756
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f524cf38cb3632b60800000000000000
+      internalID: 7720123847562510943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Suceptible Spritesheet_41
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 756
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e9d5aa0f94662ca0800000000000000
+      internalID: -6042031215829722652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Suceptible Spritesheet_42
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 756
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5a4833d5102e38c0800000000000000
+      internalID: -4017738539457820070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Suceptible Spritesheet_43
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 672
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00363b7b193a2e670800000000000000
+      internalID: 8566589287459676928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Suceptible Spritesheet_44
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 672
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa3718fe6acfc4ed0800000000000000
+      internalID: -2428288305146530897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Suceptible Spritesheet_45
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 672
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5d70e78c5a2ed540800000000000000
+      internalID: 5034508010351787354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Suceptible Spritesheet_46
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 672
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36e5320d9c4d18a10800000000000000
+      internalID: 1910041680227294819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Suceptible Spritesheet_47
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 672
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4bc5f7c8400cb8b0800000000000000
+      internalID: -5135229162516788402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Suceptible Spritesheet_48
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 672
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8bbca223fb3b0370800000000000000
+      internalID: 8289785454550367118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Suceptible Spritesheet_49
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 672
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b9f8bdcbdf219f90800000000000000
+      internalID: -6948720128960169550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Suceptible Spritesheet_50
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 672
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a0a124852dd23c00800000000000000
+      internalID: 879008030490992804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Suceptible Spritesheet_51
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 588
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 921a10a29e74f8270800000000000000
+      internalID: 8254895708751110441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Suceptible Spritesheet_52
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 588
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da1ba9019e2a62280800000000000000
+      internalID: -9068381677774261843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Suceptible Spritesheet_53
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 588
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e387dd36fbcac870800000000000000
+      internalID: 8703993488306832359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Suceptible Spritesheet_54
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 588
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19b51f909e32851e0800000000000000
+      internalID: -2208976133424063599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Suceptible Spritesheet_55
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 588
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12833c0c9182b3010800000000000000
+      internalID: 1169572619306088481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Suceptible Spritesheet_56
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 588
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20bd6d958837b5bb0800000000000000
+      internalID: -4946232736276358398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Suceptible Spritesheet_57
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 588
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c01c7791ea3e37c0800000000000000
+      internalID: -4089766671022288697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Suceptible Spritesheet_58
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 588
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 720ba1f2852857d10800000000000000
+      internalID: 2122746114634068007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Suceptible Spritesheet_59
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 588
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59f4e1b6e399c7370800000000000000
+      internalID: 8321694704838004629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Suceptible Spritesheet_60
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 588
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1c0091db753e7e10800000000000000
+      internalID: 2197252474116508698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Suceptible Spritesheet_61
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 504
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08c871bf85e6a4260800000000000000
+      internalID: 7082594692442328192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Suceptible Spritesheet_62
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 504
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba46de1f693335960800000000000000
+      internalID: 7589466520446395563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Suceptible Spritesheet_63
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 504
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 661ca252112d96b20800000000000000
+      internalID: 3128262387265356134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Suceptible Spritesheet_64
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 504
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3002a97245c334c00800000000000000
+      internalID: 883616284034080771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Suceptible Spritesheet_65
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 420
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94d90f5a7c28d3500800000000000000
+      internalID: 377601737763102025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Suceptible Spritesheet_66
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 420
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1135b4e39f84c250800000000000000
+      internalID: 5964049671905423645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Suceptible Spritesheet_67
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 420
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71ef79ac4a89fca40800000000000000
+      internalID: 5390695112526790167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Suceptible Spritesheet_68
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 420
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a5dce9979c78de00800000000000000
+      internalID: 1069741902064833956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Suceptible Spritesheet_69
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 336
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8169f57b4df6994c0800000000000000
+      internalID: -4280267011438701032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Suceptible Spritesheet_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 252
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d4e0fec142b12ff0800000000000000
+      internalID: -62572924091964203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Suceptible Spritesheet_71
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 252
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b896ee8dedfccd350800000000000000
+      internalID: 6042933356053555595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Suceptible Spritesheet_72
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 252
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da795e5c697ad2550800000000000000
+      internalID: 6137746133182945197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Suceptible Spritesheet_73
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 252
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1ba2c19bf02e93a0800000000000000
+      internalID: -6656846934352680164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Suceptible Spritesheet_74
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 252
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e2191af97d2736e0800000000000000
+      internalID: -1857966319356800286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Suceptible Spritesheet_75
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 252
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 651b93f47fda5ad40800000000000000
+      internalID: 5595069389775417686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Suceptible Spritesheet_76
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 252
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bad0b5bd85d7f4a50800000000000000
+      internalID: 6507557807164427691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Suceptible Spritesheet_77
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 252
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef8183ecc12251760800000000000000
+      internalID: 7427880667531712766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Suceptible Spritesheet_78
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 168
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc24a2b3e0fc09d10800000000000000
+      internalID: 2130430283775361743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Suceptible Spritesheet_79
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 168
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09e3b821dc5a31a10800000000000000
+      internalID: 1879027769741622928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Suceptible Spritesheet_80
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 168
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1260895145341c3d0800000000000000
+      internalID: -3188193032783002079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Suceptible Spritesheet_81
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 168
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0458c56b0a8f10210800000000000000
+      internalID: 1297591536797386048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Suceptible Spritesheet_82
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 168
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 461dd5adc808ac400800000000000000
+      internalID: 345229663894622564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Suceptible Spritesheet_83
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 168
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f937e7d9f49cc9d0800000000000000
+      internalID: -2752661471440193032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Suceptible Spritesheet_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 84
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1cb3190349e7b100800000000000000
+      internalID: 123823988900346908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Suceptible Spritesheet_85
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 84
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ffbb859aeffb9f00800000000000000
+      internalID: 1124773914955464691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Suceptible Spritesheet_86
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 84
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb2edfa97b6323290800000000000000
+      internalID: -7912201433129295170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Suceptible Spritesheet_87
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 84
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e403c2949aff42860800000000000000
+      internalID: 7504403981648277582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Suceptible Spritesheet_88
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 84
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 061c619eec5bb5bc0800000000000000
+      internalID: -3793238360851037856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Suceptible Spritesheet_89
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 84
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23c9f845713fa21d0800000000000000
+      internalID: -3374617689232270286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Suceptible Spritesheet_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed53e950777f9f050800000000000000
+      internalID: 5834966882802611678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Suceptible Spritesheet_91
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35343a09df6e95030800000000000000
+      internalID: 3484069763475522387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_Suceptible Spritesheet_92
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8090526844e59b090800000000000000
+      internalID: -8018274013155096312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
