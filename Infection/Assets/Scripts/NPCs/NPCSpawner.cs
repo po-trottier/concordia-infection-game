@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Linq;
 using Common;
+using Player.Enums;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
@@ -34,6 +35,12 @@ namespace NPCs
         [SerializeField] private GameObject susceptiblePrefab;
         [SerializeField] private GameObject vaccinatedPrefab;
 
+        [HideInInspector] public uint infectedCount;
+        [HideInInspector] public uint maskCount;
+        [HideInInspector] public uint noMaskCount;
+        [HideInInspector] public uint susceptibleCount;
+        [HideInInspector] public uint vaccinatedCount;
+        
         private Vector3[] _doorPositions;
         private Vector3[] _shopPositions;
         
@@ -77,6 +84,28 @@ namespace NPCs
             CleanNPCs();
         }
 
+        public void OnNPCDestroyed(NPCType type)
+        {
+            switch (type)
+            {
+                case NPCType.Infected: 
+                    infectedCount--;
+                    break;
+                case NPCType.Mask: 
+                    maskCount--;
+                    break;
+                case NPCType.NoMask: 
+                    noMaskCount--;
+                    break;
+                case NPCType.Susceptible: 
+                    susceptibleCount--;
+                    break;
+                case NPCType.Vaccinated: 
+                    vaccinatedCount--;
+                    break;
+            }   
+        }
+        
         private IEnumerator SpawnCoroutine()
         {
             // Make sure we spawn the right amount of NPCs
@@ -89,7 +118,34 @@ namespace NPCs
 
         private void SpawnNPC()
         {
-            var prefab = GetRandomPrefabNPC();
+            GameObject prefab = null;
+            var npcType = GetRandomTypeNPC();
+            switch (npcType)
+            {
+                case NPCType.Infected: 
+                    prefab = infectedPrefab;
+                    infectedCount++;
+                    break;
+                case NPCType.Mask: 
+                    prefab = maskPrefab;
+                    maskCount++;
+                    break;
+                case NPCType.NoMask: 
+                    prefab = noMaskPrefab;
+                    noMaskCount++;
+                    break;
+                case NPCType.Susceptible: 
+                    prefab = susceptiblePrefab;
+                    susceptibleCount++;
+                    break;
+                case NPCType.Vaccinated: 
+                    prefab = vaccinatedPrefab;
+                    vaccinatedCount++;
+                    break;
+            }
+
+            if (prefab == null)
+                throw new UnityException("Invalid NPC Type Selected. Make sure the sum of the spawn rates is equal to 1.");
 
             int doorIndex = (int)Math.Round((double)Random.Range(0, _doorPositions.Length));
             int exitIndex = (int)Math.Round((double)Random.Range(0, _doorPositions.Length));
@@ -102,6 +158,9 @@ namespace NPCs
             controller.SetTargetPosition(_shopPositions[shopIndex]);
             controller.SetExitPosition(_doorPositions[exitIndex]);
             controller.SetSpeed(_currentSpeedtNPC);
+            controller.SetType(npcType);
+            
+            controller.npcDestroyed.AddListener(OnNPCDestroyed);
 
             _spawnedCountNPC++;
         }
@@ -115,35 +174,26 @@ namespace NPCs
             }
         }
 
-        private GameObject GetRandomPrefabNPC()
+        private NPCType GetRandomTypeNPC()
         {
             float randomSeed = Random.value;
 
             if (randomSeed < infectedRate)
-            {
-                return infectedPrefab;
-            }
+                return NPCType.Infected;
 
             if (randomSeed < infectedRate + maskRate)
-            {
-                return maskPrefab;
-            }
+                return NPCType.Mask;
 
             if (randomSeed < infectedRate + maskRate + noMaskRate)
-            {
-                return noMaskPrefab;
-            }
+                return NPCType.NoMask;
 
             if (randomSeed < infectedRate + maskRate + noMaskRate + susceptibleRate)
-            {
-                return susceptiblePrefab;
-            }
+                return NPCType.Susceptible;
 
-            if (randomSeed >= 1 - vaccinatedRate) {
-                return vaccinatedPrefab;
-            }
+            if (randomSeed >= 1 - vaccinatedRate)
+                return NPCType.Vaccinated;
 
-            return null;
+            return NPCType.None;
         }
         
         private void FindDoors()

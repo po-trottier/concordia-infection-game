@@ -150,11 +150,11 @@ RectTransform:
   m_GameObject: {fileID: 112846}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.9722401, y: 1.6294113, z: 0.6799482}
+  m_LocalScale: {x: 1.9722399, y: 1.6294115, z: 0.67994815}
   m_Children:
   - {fileID: 1997038235}
   - {fileID: 407875249}
-  m_Father: {fileID: 59084290}
+  m_Father: {fileID: 1756144224}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -1978,7 +1978,7 @@ GameObject:
   - component: {fileID: 59084292}
   - component: {fileID: 59084291}
   m_Layer: 5
-  m_Name: Score Background
+  m_Name: NPC Count
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1995,11 +1995,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.24297035, y: 0.50415677, z: 1.6108648}
   m_Children:
-  - {fileID: 884451900}
-  - {fileID: 1829087270}
-  - {fileID: 112847}
-  - {fileID: 176709195}
-  - {fileID: 1254922443}
+  - {fileID: 1756144224}
   m_Father: {fileID: 245731023}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4190,11 +4186,11 @@ RectTransform:
   m_GameObject: {fileID: 176709194}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.9722401, y: 1.6294113, z: 0.6799482}
+  m_LocalScale: {x: 1.9722399, y: 1.6294115, z: 0.67994815}
   m_Children:
   - {fileID: 2079521328}
   - {fileID: 1718699556}
-  m_Father: {fileID: 59084290}
+  m_Father: {fileID: 1756144224}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -24073,11 +24069,11 @@ RectTransform:
   m_GameObject: {fileID: 884451899}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.9722401, y: 1.6294113, z: 0.6799482}
+  m_LocalScale: {x: 1.9722399, y: 1.6294115, z: 0.67994815}
   m_Children:
   - {fileID: 1001940389}
   - {fileID: 880614595}
-  m_Father: {fileID: 59084290}
+  m_Father: {fileID: 1756144224}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -33883,7 +33879,7 @@ GameObject:
   - component: {fileID: 1248291152}
   - component: {fileID: 1248291151}
   m_Layer: 5
-  m_Name: Countdown Background
+  m_Name: Countdown
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -33978,6 +33974,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   roundTotalTime: 60
   roundDangerTime: 10
+  roundStopSpawnTime: 20
   roundStarting:
     m_PersistentCalls:
       m_Calls:
@@ -34050,11 +34047,11 @@ RectTransform:
   m_GameObject: {fileID: 1254922442}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.9722401, y: 1.6294113, z: 0.6799482}
+  m_LocalScale: {x: 1.9722399, y: 1.6294115, z: 0.67994815}
   m_Children:
   - {fileID: 1529146972}
   - {fileID: 1460766121}
-  m_Father: {fileID: 59084290}
+  m_Father: {fileID: 1756144224}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -41926,7 +41923,7 @@ GameObject:
   - component: {fileID: 1511322221}
   - component: {fileID: 1511322222}
   m_Layer: 5
-  m_Name: Countdown
+  m_Name: Countdown Manager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -49225,6 +49222,65 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1756144223
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1756144224}
+  - component: {fileID: 1756144225}
+  m_Layer: 5
+  m_Name: NPC Count Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1756144224
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1756144223}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 884451900}
+  - {fileID: 1829087270}
+  - {fileID: 112847}
+  - {fileID: 176709195}
+  - {fileID: 1254922443}
+  m_Father: {fileID: 59084290}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1756144225
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1756144223}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3efa033f5d93456ea8ffee4b5f3b81fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  infectedText: {fileID: 1529146973}
+  maskText: {fileID: 2065366961}
+  noMaskText: {fileID: 1997038236}
+  susceptibleText: {fileID: 2079521329}
+  vaccinatedText: {fileID: 1001940390}
+  spawner: {fileID: 1797729338}
 --- !u!1001 &1760005181
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -50013,6 +50069,11 @@ MonoBehaviour:
   noMaskPrefab: {fileID: 3925504554641986342, guid: 8935818b03d49b546a918a0a3de348cd, type: 3}
   susceptiblePrefab: {fileID: 3925504554641986342, guid: f63bbb8fcc9faa24fb464fc68d2a1a06, type: 3}
   vaccinatedPrefab: {fileID: 3925504554641986342, guid: bb21d192fa09c1d4999aaeec469198c9, type: 3}
+  infectedCount: 0
+  maskCount: 0
+  noMaskCount: 0
+  susceptibleCount: 0
+  vaccinatedCount: 0
 --- !u!1001 &1798127031
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -50787,11 +50848,11 @@ RectTransform:
   m_GameObject: {fileID: 1829087269}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.9722401, y: 1.6294113, z: 0.6799482}
+  m_LocalScale: {x: 1.9722399, y: 1.6294115, z: 0.67994815}
   m_Children:
   - {fileID: 2065366960}
   - {fileID: 460024279}
-  m_Father: {fileID: 59084290}
+  m_Father: {fileID: 1756144224}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}

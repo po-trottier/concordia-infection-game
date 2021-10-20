@@ -1,6 +1,7 @@
 using System.Collections;
 using Player.Enums;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class NPCController : MonoBehaviour
 {
@@ -8,14 +9,19 @@ public class NPCController : MonoBehaviour
     [Tooltip("Time the NPC will spend waiting at its target destination")]
     [SerializeField] private float timeWaiting = 3f;
     [SerializeField] private float modelVerticalOffset = -0.21f;
-    
+
     [Header("References")]
     [SerializeField] private SpriteRenderer sprite;
     [SerializeField] private Animator animator;
+
+    [HideInInspector]
+    public UnityEvent<NPCType> npcDestroyed;
     
     private float _speed;
     private Vector3 _target;
     private Vector3 _exit;
+    
+    private NPCType _npcType;
 
     void Update()
     {
@@ -32,6 +38,9 @@ public class NPCController : MonoBehaviour
             // Destroy the NPC
             if (_target == _exit)
             {
+                npcDestroyed ??= new UnityEvent<NPCType>();
+                npcDestroyed.Invoke(_npcType);
+                
                 Destroy(gameObject);
             }
             // If we're at the shop, go to the exit
@@ -44,6 +53,11 @@ public class NPCController : MonoBehaviour
         transform.position = Vector3.MoveTowards(transform.position, _target, _speed * Time.deltaTime);
 
         sprite.flipX = (_target - transform.position).x < 0f;
+    }
+
+    public void SetType(NPCType type)
+    {
+        _npcType = type;
     }
 
     public void SetSpeed(float speed)
