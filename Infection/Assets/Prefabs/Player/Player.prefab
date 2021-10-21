@@ -123,18 +123,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.01, y: -0.21}
+  m_Offset: {x: 0.005, y: -0.43}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.96, y: 0.84}
+    oldSize: {x: 1.92, y: 1.68}
     newSize: {x: 0.96, y: 0.84}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.11, y: 0.39}
+  m_Size: {x: 0.28, y: 0.78}
   m_EdgeRadius: 0
 --- !u!50 &3925504554641986394
 Rigidbody2D:
@@ -148,7 +148,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 1
-  m_Mass: 0.042899996
+  m_Mass: 0.21839999
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -281,18 +281,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64e06ae2814c4e7bae3e7dd2527fe9c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerSpeed: 2
-  jumpForce: 0.15
+  playerSpeed: 2.75
+  jumpForce: 0.75
   jumpDelay: 0.15
-  stairsSpeed: 1.5
-  stairsOffset: 0.3
+  stairsSpeed: 2
   stairsMask:
     serializedVersion: 2
     m_Bits: 1024
   groundedOffset: 0.05
   groundedMask:
     serializedVersion: 2
-    m_Bits: 128
+    m_Bits: 1152
   box: {fileID: 3925504554641986395}
   rb: {fileID: 3925504554641986394}
   sprite: {fileID: 3925504554641986393}
@@ -359,7 +358,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 1.72
+  orthographic size: 3.8
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -427,11 +426,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c88f5cead0c0b2a4eb05b5900433f8d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_AssetsPPU: 100
-  m_RefResolutionX: 576
-  m_RefResolutionY: 324
+  m_AssetsPPU: 32
+  m_RefResolutionX: 320
+  m_RefResolutionY: 180
   m_UpscaleRT: 0
-  m_PixelSnapping: 1
+  m_PixelSnapping: 0
   m_CropFrameX: 0
   m_CropFrameY: 0
   m_StretchFill: 0

@@ -12,7 +12,6 @@ namespace Player
         
         [Header("Stairs Settings")]
         [SerializeField] private float stairsSpeed = 1.5f;
-        [SerializeField] private float stairsOffset = 0.3f;
         [SerializeField] private LayerMask stairsMask;
         
         [Header("Ground Check")]
@@ -30,7 +29,7 @@ namespace Player
 
         private bool IsGrounded => Physics2D.Raycast(box.bounds.center, Vector2.down, box.bounds.extents.y + groundedOffset, groundedMask).collider != null;
         
-        private bool CanClimb => Physics2D.Raycast(box.bounds.center, Vector2.up, box.bounds.extents.y - stairsOffset, stairsMask).collider != null;
+        private bool CanClimb => Physics2D.Raycast(box.bounds.center, Vector2.up, box.bounds.extents.y, stairsMask).collider != null;
         
         private bool CanDescend => Physics2D.Raycast(box.bounds.center, Vector2.down, box.bounds.extents.y + groundedOffset, stairsMask).collider != null;
 

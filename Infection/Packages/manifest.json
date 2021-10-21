@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "com.h8man.2d.navmeshplus": "https://github.com/h8man/NavMeshPlus.git#master",
     "com.unity.2d.animation": "6.0.7",
     "com.unity.2d.pixel-perfect": "5.0.1",
     "com.unity.2d.psdimporter": "5.0.6",
@@ -13,9 +14,9 @@
     "com.unity.ide.vscode": "1.2.4",
     "com.unity.inputsystem": "1.0.2",
     "com.unity.render-pipelines.universal": "11.0.0",
-    "com.unity.test-framework": "1.1.29",
+    "com.unity.test-framework": "1.1.30",
     "com.unity.textmeshpro": "3.0.6",
-    "com.unity.timeline": "1.5.6",
+    "com.unity.timeline": "1.5.7",
     "com.unity.toolchain.win-x86_64-linux-x86_64": "0.1.21-preview",
     "com.unity.ugui": "1.0.0",
     "com.unity.visualscripting": "1.6.1",
