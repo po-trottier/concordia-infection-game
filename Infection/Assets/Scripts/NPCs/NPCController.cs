@@ -18,10 +18,8 @@ public class NPCController : MonoBehaviour
     [SerializeField] private SpriteRenderer sprite;
     [SerializeField] private Animator animator;
     [SerializeField] private Seeker seeker;
-    [SerializeField] private Rigidbody2D rigidbody;
 
-    [HideInInspector]
-    public UnityEvent<NPCType> npcDestroyed;
+    [HideInInspector] public UnityEvent<NPCType> npcDestroyed;
     
     private float _speed;
     private Vector3 _target;
@@ -38,7 +36,7 @@ public class NPCController : MonoBehaviour
         StartCoroutine(FindPathCoroutine());
     }
 
-    private void FixedUpdate()
+    private void Update()
     {
         // If values were not set yet then wait
         if (_path == null || _speed == 0f || _target == Vector3.zero)
@@ -54,12 +52,11 @@ public class NPCController : MonoBehaviour
         var immediateTarget = _path.vectorPath[_currentWaypoint];
         
         // Move the player in the direction the pathfinder gives us
-        var direction = (immediateTarget - transform.position).normalized;
-        var movement = Vector3.MoveTowards(transform.position, immediateTarget, _speed * Time.fixedDeltaTime);
+        var movement = Vector3.MoveTowards(transform.position, immediateTarget, _speed * Time.deltaTime);
         transform.position = movement;
-
+        
         // Flip the sprite if we're moving towards "negative x"
-        sprite.flipX = direction.x < 0f;
+        sprite.flipX = (immediateTarget - transform.position).x < 0f;
 
         // Start moving to the next waypoint if we're close enough
         if (Vector3.Distance(transform.position, immediateTarget) < waypointDistance)
@@ -118,7 +115,7 @@ public class NPCController : MonoBehaviour
                     _reachedTarget = false;
                 }
             }
-            
+
             seeker.StartPath(transform.position, _target, OnPathComplete);
             yield return new WaitForSeconds(pathCalculationDelay);
         }

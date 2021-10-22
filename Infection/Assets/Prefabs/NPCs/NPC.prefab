@@ -128,7 +128,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.25, y: 0.8}
+  m_Size: {x: 0.32, y: 0.8000001}
   m_EdgeRadius: 0
 --- !u!1 &3925504554641986342
 GameObject:
@@ -204,12 +204,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeWaiting: 3
-  pathCalculationDelay: 0.5
-  waypointDistance: 1
+  pathCalculationDelay: 1
+  waypointDistance: 0.001
   sprite: {fileID: 3021274908267981915}
   animator: {fileID: 4809218462353932967}
   seeker: {fileID: -3670530531660021272}
-  rigidbody: {fileID: 0}
   npcDestroyed:
     m_PersistentCalls:
       m_Calls: []
