@@ -8,7 +8,7 @@ public class PauseMenuManager : MonoBehaviour
     [SerializeField] private GameObject canvas;
     [SerializeField] private PlayerInputController inputController;
 
-    public UnityEvent<bool> onPause;
+    public UnityEvent<bool> gamePaused;
     
     private void Start()
     {
@@ -21,7 +21,7 @@ public class PauseMenuManager : MonoBehaviour
     {
         canvas.SetActive(!canvas.activeSelf);
 
-        onPause.Invoke(canvas.activeSelf);
+        gamePaused.Invoke(canvas.activeSelf);
         
         // If the menu is visible
         if (canvas.activeSelf)

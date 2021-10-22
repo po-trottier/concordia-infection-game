@@ -1,9 +1,11 @@
 using System;
 using System.Collections;
+using System.Collections.Generic;
 using System.Linq;
 using Common;
 using Player.Enums;
 using UnityEngine;
+using UnityEngine.Tilemaps;
 using Random = UnityEngine.Random;
 
 namespace NPCs
@@ -14,7 +16,7 @@ namespace NPCs
         [SerializeField] private uint initialCountNPC = 20;
         [SerializeField] private float roundIncreaseMultiplierNPC = 1.25f;
         [SerializeField] private float initialSpeedNPC = 0.5f;
-        [SerializeField] private float roundIncreaseSpeed = 0.05f;
+        [SerializeField] private float roundIncreaseMultiplierSpeed = 1.1f;
         
         [Header("NPC Parameters")]
         [Tooltip("The chances to spawn an infected NPC. Total of all the rates should be 1")]
@@ -27,6 +29,16 @@ namespace NPCs
         [Range(0, 1)] [SerializeField] private float susceptibleRate = 0.2f;
         [Tooltip("The chances to spawn a vaccinated NPC. Total of all the rates should be 1")]
         [Range(0, 1)] [SerializeField] private float vaccinatedRate = 0.2f;
+        
+        [Header("Tilemap References")]
+        [SerializeField] private Tilemap doorsTilemap;
+        [SerializeField] private Tilemap shopsTilemap;
+        
+        [Header("Tile References")] 
+        [Tooltip("Select the bottom tile as to spawn the NPC at the right height")]
+        [SerializeField] private TileBase[] doorTiles;
+        [Tooltip("Select the bottom left tile as we will add offsets for each NPC present at the shop")]
+        [SerializeField] private TileBase[] shopTiles;
         
         [Header("NPC References")]
         [SerializeField] private GameObject infectedPrefab;
@@ -58,8 +70,8 @@ namespace NPCs
                 _currentSpeedtNPC = initialSpeedNPC;
             
                 CleanNPCs();
-                FindDoors();
-                FindShops();
+                _doorPositions = FindInTilemap(doorsTilemap, doorTiles, true);
+                _shopPositions = FindInTilemap(shopsTilemap, shopTiles);
                 
                 if (_doorPositions.Length == 0 || _shopPositions.Length == 0)
                     throw new UnityException("No door or shops were found.");
@@ -68,7 +80,7 @@ namespace NPCs
             {
                 // Increment values for all subsequent rounds
                 _currentCountNPC = (uint)(_currentCountNPC * roundIncreaseMultiplierNPC);
-                _currentSpeedtNPC += roundIncreaseSpeed;
+                _currentSpeedtNPC *= roundIncreaseMultiplierSpeed;
             }
 
             _spawnedCountNPC = 0;
@@ -195,15 +207,30 @@ namespace NPCs
 
             return NPCType.None;
         }
-        
-        private void FindDoors()
+
+        private Vector3[] FindInTilemap(Tilemap tilemap, TileBase[] tiles, bool offsetPosition = false)
         {
-            _doorPositions = GameObject.FindGameObjectsWithTag(Tags.Door).Select(go => go.transform.position).ToArray();
-        }
-        
-        private void FindShops()
-        {
-            _shopPositions = GameObject.FindGameObjectsWithTag(Tags.Shop).Select(go => go.transform.position).ToArray();
+            var foundPositions = new List<Vector3>();
+            var tilesList = new List<TileBase>(tiles);
+
+            for (var x = tilemap.cellBounds.xMin; x < tilemap.cellBounds.xMax; x++)
+            {
+                for (var y = tilemap.cellBounds.yMin; y < tilemap.cellBounds.yMax; y++)
+                {
+                    var coordinates = new Vector3Int(x, y, (int)tilemap.transform.position.z);
+                    
+                    // If there is no tile or the tile is not in the list of tiles we are looking for at the current coordinates continue
+                    if (!tilemap.HasTile(coordinates) || !tilesList.Find(t => t.name == tilemap.GetTile(coordinates).name)) 
+                        continue;
+                    
+                    // Shift by 1 cell in the right direction
+                    var shift =  new Vector3Int(coordinates.x > 0 ? 1 : -1, 0, 0);
+                    
+                    foundPositions.Add(tilemap.GetCellCenterWorld(coordinates + (offsetPosition ? shift : Vector3Int.zero)));
+                }
+            }
+            
+            return foundPositions.ToArray();
         }
         
         private void CalculateSpawnDelay(float roundTotalTime, float roundSafeTime)

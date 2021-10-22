@@ -21,14 +21,20 @@ namespace Game
         [HideInInspector]
         public uint round;
 
+        public void OnCountdownReached()
+        {
+            roundEnded ??= new UnityEvent();
+            roundEnded.Invoke();
+        }
+        
         private void Start()
         {
-            roundStarting ??= new UnityEvent<RoundModel>();
             StartRound();
         }
 
         public void StartRound()
         {
+            roundStarting ??= new UnityEvent<RoundModel>();
             roundStarting.Invoke(new RoundModel(++round, roundTotalTime, roundStopSpawnTime));
         }
     }

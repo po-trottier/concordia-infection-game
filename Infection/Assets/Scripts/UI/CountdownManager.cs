@@ -1,8 +1,10 @@
 using System;
+using System.Collections;
 using System.Timers;
 using Game;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.UI;
 
 public class CountdownManager : MonoBehaviour
@@ -14,6 +16,9 @@ public class CountdownManager : MonoBehaviour
     [Header("Countdown Parameters")]
     [SerializeField] private float animationTime = 0.75f;
     [SerializeField] private string timeRemainingText = "{0} seconds left";
+
+    [Header("Events")] 
+    public UnityEvent countdownReached;
     
     [Header("References")]
     [SerializeField] private Slider slider;
@@ -21,31 +26,21 @@ public class CountdownManager : MonoBehaviour
     [SerializeField] private TextMeshProUGUI textObject;
     [SerializeField] private RoundManager roundManager;
 
-    private Timer _timer;
     private float _timeLeft;
 
-    public void UpdateTimerState(bool isPaused)
+    public void OnGamePaused(bool isPaused)
     {
         if (isPaused)
-            _timer.Stop();
-        else 
-            _timer.Start();
+            StopCoroutine(CountdownCoroutine());
+        else
+            StartCoroutine(CountdownCoroutine());
     }
 
-    private void Start()
+    public void OnRoundStarting()
     {
         _timeLeft = roundManager.roundTotalTime;
         
-        _timer = new Timer(1000);
-        _timer.AutoReset = true;
-        _timer.Elapsed += (sender, args) =>  _timeLeft--;;
-        
-        _timer.Start();
-    }
-
-    private void OnDestroy()
-    {
-        _timer.Dispose();
+        StartCoroutine(CountdownCoroutine());
     }
 
     private void FixedUpdate()
@@ -54,13 +49,19 @@ public class CountdownManager : MonoBehaviour
 
         textObject.text = String.Format(timeRemainingText, _timeLeft);
         
-        if (_timeLeft < roundManager.roundDangerTime)
+        image.color = _timeLeft < roundManager.roundDangerTime ? dangerColor : healthyColor;
+    }
+    
+    private IEnumerator CountdownCoroutine()
+    {
+        // Make sure we spawn the right amount of NPCs
+        while (_timeLeft > 0)
         {
-            image.color = dangerColor;
+            _timeLeft--;
+            yield return new WaitForSecondsRealtime(1);
         }
-        else
-        {
-            image.color = healthyColor;
-        }
+            
+        countdownReached ??= new UnityEvent();
+        countdownReached.Invoke();
     }
 }

@@ -16,7 +16,7 @@ namespace UI
         [Header("Other References")]
         [SerializeField] private NPCSpawner spawner;
 
-        private void Update()
+        private void FixedUpdate()
         {
             infectedText.text = spawner.infectedCount.ToString();
             maskText.text = spawner.maskCount.ToString();
