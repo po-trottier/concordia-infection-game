@@ -12143,7 +12143,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: e82a0675bb952cb4fac5bd6b7a6d50e9, type: 2}
   - {fileID: 11400000, guid: 82621b4c942198d41939c43400017d9e, type: 2}
   - {fileID: 11400000, guid: 004a17faaf301aa41842bc6663470ad2, type: 2}
-  - {fileID: 11400000, guid: 06f430fc43bc0f3409b508de80337189, type: 2}
+  - {fileID: 11400000, guid: 1e86d7c1dffe0554db8e06ea17492d1f, type: 2}
   infectedPrefab: {fileID: 865036528360548808, guid: 3824231998dab3b4d9be3ac014cadcb3, type: 3}
   maskPrefab: {fileID: 6050166802769282473, guid: ad4c74414ae0b0b489396779da05d656, type: 3}
   noMaskPrefab: {fileID: 6448489849217316500, guid: 8935818b03d49b546a918a0a3de348cd, type: 3}

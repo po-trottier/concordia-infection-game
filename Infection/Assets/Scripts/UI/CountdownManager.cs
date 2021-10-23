@@ -26,21 +26,27 @@ public class CountdownManager : MonoBehaviour
     [SerializeField] private TextMeshProUGUI textObject;
     [SerializeField] private RoundManager roundManager;
 
+    private bool _paused;
     private float _timeLeft;
+    private Coroutine _coroutine;
 
     public void OnGamePaused(bool isPaused)
     {
-        if (isPaused)
-            StopCoroutine(CountdownCoroutine());
+        _paused = isPaused;
+        if (_paused)
+            StopCoroutine(_coroutine);
         else
-            StartCoroutine(CountdownCoroutine());
+            _coroutine = StartCoroutine(CountdownCoroutine());
     }
 
     public void OnRoundStarting()
     {
+        if (_coroutine != null)
+            StopCoroutine(_coroutine);
+        
         _timeLeft = roundManager.roundTotalTime;
         
-        StartCoroutine(CountdownCoroutine());
+        _coroutine = StartCoroutine(CountdownCoroutine());
     }
 
     private void FixedUpdate()

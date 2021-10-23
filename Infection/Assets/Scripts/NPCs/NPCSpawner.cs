@@ -60,6 +60,8 @@ namespace NPCs
         private uint _currentCountNPC;
         private float _currentSpeedtNPC;
         private float _spawnDelay;
+        
+        private Coroutine _coroutine;
 
         public void OnRoundStarting(RoundModel round)
         {
@@ -87,12 +89,12 @@ namespace NPCs
 
             CalculateSpawnDelay(round.TotalTime, round.SafeTime);
 
-            StartCoroutine(SpawnCoroutine());
+            _coroutine = StartCoroutine(SpawnCoroutine());
         }
 
         public void OnRoundEnding()
         {
-            StopCoroutine(SpawnCoroutine());
+            StopCoroutine(_coroutine);
             CleanNPCs();
         }
 
@@ -165,6 +167,7 @@ namespace NPCs
             
             var npc = Instantiate(prefab);
             npc.transform.position = _doorPositions[doorIndex];
+            npc.layer = LayerMask.NameToLayer(Layers.NPC);
 
             var controller = npc.GetComponent<NPCController>();
             controller.SetTargetPosition(_shopPositions[shopIndex]);
