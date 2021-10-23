@@ -8,13 +8,21 @@ public class PlayerInputController : MonoBehaviour
     [SerializeField] private bool cursorLocked = true;
 		
     [Header("Character Input Values")]
+    [Tooltip("Player movement input")]
     public Vector2 move;
+    [Tooltip("Player jump input")]
     public bool jump;
-    public bool interact;
+    [Tooltip("Toggle pause menu input")]
     public bool pause;
+    [Tooltip("Distribute mask input")]
+    public bool mask;
+    [Tooltip("Distribute vaccine input")]
+    public bool vaccinate;
+    [Tooltip("Crowds control input")]
+    public bool cc;
 
     [Header("References")] 
-    public PlayerInput playerInput;
+    public PlayerInput reference;
 
     private void Start()
     {
@@ -38,9 +46,19 @@ public class PlayerInputController : MonoBehaviour
         jump = context.ReadValueAsButton();
     }
 
-    public void OnInteract(InputAction.CallbackContext context)
+    public void OnMask(InputAction.CallbackContext context)
     {
-        interact = context.ReadValueAsButton();
+        mask = context.ReadValueAsButton();
+    }
+
+    public void OnVaccinate(InputAction.CallbackContext context)
+    {
+        vaccinate = context.ReadValueAsButton();
+    }
+
+    public void OnCC(InputAction.CallbackContext context)
+    {
+        cc = context.ReadValueAsButton();
     }
 
     public void OnPause(InputAction.CallbackContext context)

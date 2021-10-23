@@ -6,7 +6,11 @@ namespace Common
         
         public static string Jump => "Jump";
         
-        public static string Interact => "Interact";
+        public static string Mask => "Mask";
+        
+        public static string Vaccinate => "Vaccinate";
+        
+        public static string CC => "CC";
         
         public static string Pause => "Pause";
     }

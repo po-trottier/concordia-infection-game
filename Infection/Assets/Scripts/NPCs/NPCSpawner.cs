@@ -17,6 +17,8 @@ namespace NPCs
         [SerializeField] private float roundIncreaseMultiplierNPC = 1.25f;
         [SerializeField] private float initialSpeedNPC = 0.5f;
         [SerializeField] private float roundIncreaseMultiplierSpeed = 1.1f;
+        [Range(0f, 2f)]
+        [SerializeField] private float targetPositionRandomness = 1f;
         
         [Header("NPC Parameters")]
         [Tooltip("The chances to spawn an infected NPC. Total of all the rates should be 1")]
@@ -100,24 +102,21 @@ namespace NPCs
 
         public void OnNPCDestroyed(NPCType type)
         {
-            switch (type)
-            {
-                case NPCType.Infected: 
-                    infectedCount--;
-                    break;
-                case NPCType.Mask: 
-                    maskCount--;
-                    break;
-                case NPCType.NoMask: 
-                    noMaskCount--;
-                    break;
-                case NPCType.Susceptible: 
-                    susceptibleCount--;
-                    break;
-                case NPCType.Vaccinated: 
-                    vaccinatedCount--;
-                    break;
-            }   
+            UpdateCountNPC(type, -1);
+        }
+
+        public void OnNPCTypeChanged(GameObject npc, NPCType previous, NPCType future)
+        {
+            var path = npc.GetComponent<NPCPathController>();
+            
+            if (path == null)
+                return;
+            
+            SpawnNPC(future, npc.transform.position, path.GetTargetPosition(), path.GetExitPosition());
+            DestroyImmediate(npc);
+            
+            UpdateCountNPC(previous, -1);
+            UpdateCountNPC(future, 1);
         }
         
         private IEnumerator SpawnCoroutine()
@@ -132,52 +131,62 @@ namespace NPCs
 
         private void SpawnNPC()
         {
-            GameObject prefab = null;
             var npcType = GetRandomTypeNPC();
+
+            int doorIndex = (int)Math.Round((double)Random.Range(0, _doorPositions.Length));
+            int exitIndex = (int)Math.Round((double)Random.Range(0, _doorPositions.Length));
+            int shopIndex = (int)Math.Round((double)Random.Range(0, _shopPositions.Length));
+
+            float randomOffset = Random.value * targetPositionRandomness;
+            Vector3 positionOffset = new Vector3(randomOffset, 0f, 0f);
+            
+            SpawnNPC(npcType, _doorPositions[doorIndex], _shopPositions[shopIndex] + positionOffset, _doorPositions[exitIndex]);
+            UpdateCountNPC(npcType, 1);
+
+            _spawnedCountNPC++;
+        }
+
+        private void SpawnNPC(NPCType npcType, Vector3 spawnPosition, Vector3 targetPosition, Vector3 exitPosition)
+        {
+            GameObject prefab = null;
             switch (npcType)
             {
                 case NPCType.Infected: 
                     prefab = infectedPrefab;
-                    infectedCount++;
                     break;
                 case NPCType.Mask: 
                     prefab = maskPrefab;
-                    maskCount++;
                     break;
                 case NPCType.NoMask: 
                     prefab = noMaskPrefab;
-                    noMaskCount++;
                     break;
                 case NPCType.Susceptible: 
                     prefab = susceptiblePrefab;
-                    susceptibleCount++;
                     break;
                 case NPCType.Vaccinated: 
                     prefab = vaccinatedPrefab;
-                    vaccinatedCount++;
                     break;
             }
 
             if (prefab == null)
                 throw new UnityException("Invalid NPC Type Selected. Make sure the sum of the spawn rates is equal to 1.");
-
-            int doorIndex = (int)Math.Round((double)Random.Range(0, _doorPositions.Length));
-            int exitIndex = (int)Math.Round((double)Random.Range(0, _doorPositions.Length));
-            int shopIndex = (int)Math.Round((double)Random.Range(0, _shopPositions.Length));
             
             var npc = Instantiate(prefab);
-            npc.transform.position = _doorPositions[doorIndex];
+            npc.transform.position = spawnPosition;
             npc.layer = LayerMask.NameToLayer(Layers.NPC);
 
-            var controller = npc.GetComponent<NPCController>();
-            controller.SetTargetPosition(_shopPositions[shopIndex]);
-            controller.SetExitPosition(_doorPositions[exitIndex]);
-            controller.SetSpeed(_currentSpeedtNPC);
-            controller.SetType(npcType);
+            var interactions = npc.GetComponent<NPCInteractionController>();
+            interactions.SetTypeNPC(npcType);
             
-            controller.npcDestroyed.AddListener(OnNPCDestroyed);
-
-            _spawnedCountNPC++;
+            interactions.npcTypeUpdated.AddListener(OnNPCTypeChanged);
+            
+            var path = npc.GetComponent<NPCPathController>();
+            path.SetTargetPosition(targetPosition);
+            path.SetExitPosition(exitPosition);
+            path.SetSpeed(_currentSpeedtNPC);
+            path.SetTypeNPC(npcType);
+            
+            path.npcDestroyed.AddListener(OnNPCDestroyed);
         }
         
         private static void CleanNPCs()
@@ -234,6 +243,28 @@ namespace NPCs
             }
             
             return foundPositions.ToArray();
+        }
+
+        private void UpdateCountNPC(NPCType type, int delta)
+        {
+            switch (type)
+            {
+                case NPCType.Infected: 
+                    infectedCount = (uint)Math.Max(infectedCount + delta, 0);
+                    break;
+                case NPCType.Mask: 
+                    maskCount = (uint)Math.Max(maskCount + delta, 0);
+                    break;
+                case NPCType.NoMask: 
+                    noMaskCount = (uint)Math.Max(noMaskCount + delta, 0);
+                    break;
+                case NPCType.Susceptible: 
+                    susceptibleCount = (uint)Math.Max(susceptibleCount + delta, 0);
+                    break;
+                case NPCType.Vaccinated: 
+                    vaccinatedCount = (uint)Math.Max(vaccinatedCount + delta, 0);
+                    break;
+            }  
         }
         
         private void CalculateSpawnDelay(float roundTotalTime, float roundSafeTime)

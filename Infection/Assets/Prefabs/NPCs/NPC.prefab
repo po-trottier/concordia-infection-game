@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 6919022299245377409}
   m_Layer: 0
   m_Name: Sprite
-  m_TagString: Untagged
+  m_TagString: NPC
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -118,7 +118,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.425}
+  m_Offset: {x: 0.005, y: -0.425}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -129,7 +129,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.32, y: 0.8}
+  m_Size: {x: 0.55, y: 0.8}
   m_EdgeRadius: 0
 --- !u!50 &6919022299245377409
 Rigidbody2D:
@@ -163,6 +163,7 @@ GameObject:
   - component: {fileID: 3925504554641986398}
   - component: {fileID: -3670530531660021272}
   - component: {fileID: -3747896874069584707}
+  - component: {fileID: 2310248138854699533}
   m_Layer: 0
   m_Name: NPC
   m_TagString: NPC
@@ -231,6 +232,37 @@ MonoBehaviour:
   sprite: {fileID: 3021274908267981915}
   animator: {fileID: 4809218462353932967}
   seeker: {fileID: -3670530531660021272}
+  interaction: {fileID: 2310248138854699533}
   npcDestroyed:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &2310248138854699533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3925504554641986342}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2261db3926a413b95a3059beacdc4e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  npcScared:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: -3747896874069584707}
+        m_TargetAssemblyTypeName: NPCPathController, Assembly-CSharp
+        m_MethodName: OnNPCScared
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  npcTypeUpdated:
     m_PersistentCalls:
       m_Calls: []

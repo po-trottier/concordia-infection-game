@@ -22,9 +22,25 @@
                     "interactions": ""
                 },
                 {
-                    "name": "Interact",
+                    "name": "Mask",
                     "type": "Button",
                     "id": "05cf9f66-f98f-4d86-9642-577fe646cc87",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Vaccinate",
+                    "type": "Button",
+                    "id": "2309ca95-f7e1-4bb6-b4d8-a3d909b9dc56",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "CC",
+                    "type": "Button",
+                    "id": "55c1a0e3-53e5-453d-aec9-26a731d14afa",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": ""
@@ -108,11 +124,11 @@
                 {
                     "name": "",
                     "id": "26d86473-a4f0-4f79-9c70-5a6d56693e99",
-                    "path": "<Keyboard>/e",
+                    "path": "<Keyboard>/q",
                     "interactions": "",
                     "processors": "",
                     "groups": "Keyboard and Mouse",
-                    "action": "Interact",
+                    "action": "Mask",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -124,6 +140,28 @@
                     "processors": "",
                     "groups": "Keyboard and Mouse",
                     "action": "Pause",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "42ea0545-fd47-4c9d-a6ce-6c48827404b5",
+                    "path": "<Keyboard>/e",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard and Mouse",
+                    "action": "Vaccinate",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7b5bd3a9-da61-400a-b874-cbeb3365cf4f",
+                    "path": "<Keyboard>/r",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard and Mouse",
+                    "action": "CC",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

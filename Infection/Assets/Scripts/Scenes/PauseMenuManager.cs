@@ -15,7 +15,7 @@ public class PauseMenuManager : MonoBehaviour
         ResumeGame();
         canvas.SetActive(false);
         
-        inputController.playerInput.actions[ActionTypes.Pause].performed += ToggleMenu;
+        inputController.reference.actions[ActionTypes.Pause].performed += ToggleMenu;
     }
 
     private void ToggleMenu(InputAction.CallbackContext _)
