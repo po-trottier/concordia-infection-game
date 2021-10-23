@@ -18,11 +18,32 @@ namespace Game
         public UnityEvent<RoundModel> roundStarting;
         public UnityEvent roundEnded;
 
+        [Header("Audio")] 
+        [SerializeField] private AudioSource roundSuccess;
+        [SerializeField] private AudioSource roundFailure;
+        [SerializeField] private AudioSource dangerClock;
+        
+        [Header("Music")] 
+        [SerializeField] private AudioSource music;
+
         [HideInInspector]
         public uint round;
 
+        private bool _roundSuccess = true;
+        
+        public void OnDangerTimeReached()
+        {
+            dangerClock.Play();
+        }
+        
         public void OnCountdownReached()
         {
+            dangerClock.Stop();
+            music.Stop();
+
+            var audioSource = _roundSuccess ? roundSuccess : roundFailure;
+            audioSource.Play();
+            
             roundEnded ??= new UnityEvent();
             roundEnded.Invoke();
         }
@@ -32,8 +53,10 @@ namespace Game
             StartRound();
         }
 
-        public void StartRound()
+        private void StartRound()
         {
+            music.Play();
+            
             roundStarting ??= new UnityEvent<RoundModel>();
             roundStarting.Invoke(new RoundModel(++round, roundTotalTime, roundStopSpawnTime));
         }

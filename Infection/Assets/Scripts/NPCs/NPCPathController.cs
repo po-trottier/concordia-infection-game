@@ -1,4 +1,5 @@
 using System.Collections;
+using System.Linq;
 using NPCs;
 using Pathfinding;
 using Player.Enums;
@@ -14,6 +15,10 @@ public class NPCPathController : MonoBehaviour
     [SerializeField] private float pathCalculationDelay = 1f;
     [Tooltip("The distance from a waypoint at which the NPC will start looking for the next waypoint")]
     [SerializeField] private float waypointDistance = 0.1f;
+    
+    [Header("Score Parameters")] 
+    [Tooltip("The NPCs that should remove points when they leave the scene")]
+    [SerializeField] private NPCType[] npcsRemovePoint;
 
     [Header("References")]
     [SerializeField] private SpriteRenderer sprite;
@@ -33,8 +38,15 @@ public class NPCPathController : MonoBehaviour
     
     private NPCType _npcType;
 
+    private ScoreManager _scoreManager;
+
     private void Start()
     {
+        _scoreManager = FindObjectOfType<ScoreManager>();
+
+        if (_scoreManager == null)
+            throw new UnityException("No Score Manager was found");
+        
         StartCoroutine(FindPathCoroutine());
     }
 
@@ -118,6 +130,9 @@ public class NPCPathController : MonoBehaviour
                 // If we're at the exit, destroy the NPC
                 if (_target == _exit)
                 {
+                    if (npcsRemovePoint.Contains(_npcType))
+                        _scoreManager.UpdateLives(-1);
+                    
                     npcDestroyed ??= new UnityEvent<NPCType>();
                     npcDestroyed.Invoke(_npcType);
                 

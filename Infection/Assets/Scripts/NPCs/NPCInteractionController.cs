@@ -11,8 +11,18 @@ namespace NPCs
         [HideInInspector] [Tooltip("Parent GameObject, Previous Type, New Type")]
         public UnityEvent<GameObject, NPCType, NPCType> npcTypeUpdated;
 
+        private ScoreManager _scoreManager;
+        
         private NPCType _npcType;
         private bool _waiting;
+
+        private void Start()
+        {
+            _scoreManager = FindObjectOfType<ScoreManager>();
+
+            if (_scoreManager == null)
+                throw new UnityException("No Score Manager was found");
+        }
 
         public NPCType GetTypeNPC()
         {
@@ -42,16 +52,19 @@ namespace NPCs
 
         public void Masked()
         {
-            UpdateTypeNPC(NPCType.Mask);
+            _scoreManager.UpdateScore(1);
+            UpdateTypeNPC(_npcType == NPCType.Infected ? NPCType.MaskInfected : NPCType.Mask);
         }
 
         public void Vaccinated()
         {
+            _scoreManager.UpdateScore(1);
             UpdateTypeNPC(NPCType.Vaccinated);
         }
 
         public void CCed()
         {
+            _scoreManager.UpdateScore(1);
             npcScared.Invoke();
         }
     }

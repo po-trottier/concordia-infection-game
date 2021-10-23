@@ -1,6 +1,5 @@
 using System;
 using System.Collections;
-using System.Timers;
 using Game;
 using TMPro;
 using UnityEngine;
@@ -19,6 +18,7 @@ public class CountdownManager : MonoBehaviour
 
     [Header("Events")] 
     public UnityEvent countdownReached;
+    public UnityEvent dangerTimeReached;
     
     [Header("References")]
     [SerializeField] private Slider slider;
@@ -64,6 +64,13 @@ public class CountdownManager : MonoBehaviour
         while (_timeLeft > 0)
         {
             _timeLeft--;
+            
+            if (Math.Abs(_timeLeft - roundManager.roundDangerTime) < float.Epsilon)
+            {
+                dangerTimeReached ??= new UnityEvent();
+                dangerTimeReached.Invoke();
+            }
+            
             yield return new WaitForSecondsRealtime(1);
         }
             

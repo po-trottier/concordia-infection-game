@@ -1,7 +1,6 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using System.Linq;
 using Common;
 using Player.Enums;
 using UnityEngine;
@@ -22,15 +21,17 @@ namespace NPCs
         
         [Header("NPC Parameters")]
         [Tooltip("The chances to spawn an infected NPC. Total of all the rates should be 1")]
-        [Range(0, 1)] [SerializeField] private float infectedRate = 0.2f;
+        [Range(0, 1)] [SerializeField] private float infectedRate = 1f / 6f;
         [Tooltip("The chances to spawn a masked NPC. Total of all the rates should be 1")]
-        [Range(0, 1)] [SerializeField] private float maskRate = 0.2f;
+        [Range(0, 1)] [SerializeField] private float maskRate = 1f / 6f;
+        [Tooltip("The chances to spawn a infected masked NPC. Total of all the rates should be 1")]
+        [Range(0, 1)] [SerializeField] private float maskInfectedRate = 1f / 6f;
         [Tooltip("The chances to spawn an unmasked NPC. Total of all the rates should be 1")]
-        [Range(0, 1)] [SerializeField] private float noMaskRate = 0.2f;
+        [Range(0, 1)] [SerializeField] private float noMaskRate = 1f / 6f;
         [Tooltip("The chances to spawn a susceptible NPC. Total of all the rates should be 1")]
-        [Range(0, 1)] [SerializeField] private float susceptibleRate = 0.2f;
+        [Range(0, 1)] [SerializeField] private float susceptibleRate = 1f / 6f;
         [Tooltip("The chances to spawn a vaccinated NPC. Total of all the rates should be 1")]
-        [Range(0, 1)] [SerializeField] private float vaccinatedRate = 0.2f;
+        [Range(0, 1)] [SerializeField] private float vaccinatedRate = 1f / 6f;
         
         [Header("Tilemap References")]
         [SerializeField] private Tilemap doorsTilemap;
@@ -45,12 +46,14 @@ namespace NPCs
         [Header("NPC References")]
         [SerializeField] private GameObject infectedPrefab;
         [SerializeField] private GameObject maskPrefab;
+        [SerializeField] private GameObject maskInfectedPrefab;
         [SerializeField] private GameObject noMaskPrefab;
         [SerializeField] private GameObject susceptiblePrefab;
         [SerializeField] private GameObject vaccinatedPrefab;
 
         [HideInInspector] public uint infectedCount;
         [HideInInspector] public uint maskCount;
+        [HideInInspector] public uint maskInfectedCount;
         [HideInInspector] public uint noMaskCount;
         [HideInInspector] public uint susceptibleCount;
         [HideInInspector] public uint vaccinatedCount;
@@ -157,6 +160,9 @@ namespace NPCs
                 case NPCType.Mask: 
                     prefab = maskPrefab;
                     break;
+                case NPCType.MaskInfected: 
+                    prefab = maskInfectedPrefab;
+                    break;
                 case NPCType.NoMask: 
                     prefab = noMaskPrefab;
                     break;
@@ -208,10 +214,13 @@ namespace NPCs
             if (randomSeed < infectedRate + maskRate)
                 return NPCType.Mask;
 
-            if (randomSeed < infectedRate + maskRate + noMaskRate)
+            if (randomSeed < infectedRate + maskRate + maskInfectedRate)
+                return NPCType.MaskInfected;
+
+            if (randomSeed < infectedRate + maskRate + maskInfectedRate + noMaskRate)
                 return NPCType.NoMask;
 
-            if (randomSeed < infectedRate + maskRate + noMaskRate + susceptibleRate)
+            if (randomSeed < infectedRate + maskRate + maskInfectedRate + noMaskRate + susceptibleRate)
                 return NPCType.Susceptible;
 
             if (randomSeed >= 1 - vaccinatedRate)
@@ -254,6 +263,9 @@ namespace NPCs
                     break;
                 case NPCType.Mask: 
                     maskCount = (uint)Math.Max(maskCount + delta, 0);
+                    break;
+                case NPCType.MaskInfected: 
+                    maskInfectedCount = (uint)Math.Max(maskInfectedCount + delta, 0);
                     break;
                 case NPCType.NoMask: 
                     noMaskCount = (uint)Math.Max(noMaskCount + delta, 0);

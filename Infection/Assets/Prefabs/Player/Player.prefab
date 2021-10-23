@@ -762,8 +762,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1924be55306a3ca458f2614f8d1c111b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canBeMasked: 0300000004000000
-  canBeVaccinated: 01000000020000000300000004000000
+  canBeMasked: 010000000400000005000000
+  canBeVaccinated: 0100000002000000030000000400000005000000
   noEnemiesInRange: {fileID: 8279453281379018733}
   masked: {fileID: 333385363924675617}
   vaccinated: {fileID: 2285203348937706707}

@@ -229,6 +229,7 @@ MonoBehaviour:
   timeWaiting: 3
   pathCalculationDelay: 1
   waypointDistance: 0.001
+  npcsRemovePoint: 0100000003000000
   sprite: {fileID: 3021274908267981915}
   animator: {fileID: 4809218462353932967}
   seeker: {fileID: -3670530531660021272}
