@@ -13,11 +13,10 @@ namespace NPCs
     {
         [Header("Parameters")]
         [SerializeField] private uint initialCountNPC = 20;
-        [SerializeField] private float roundIncreaseMultiplierNPC = 1.25f;
+        [Range(1f, 2f)] [SerializeField] private float roundIncreaseMultiplierNPC = 1.25f;
         [SerializeField] private float initialSpeedNPC = 0.5f;
-        [SerializeField] private float roundIncreaseMultiplierSpeed = 1.1f;
-        [Range(0f, 2f)]
-        [SerializeField] private float targetPositionRandomness = 1f;
+        [Range(1f, 2f)] [SerializeField] private float roundIncreaseMultiplierSpeed = 1.1f;
+        [Range(0f, 2f)] [SerializeField] private float targetPositionRandomness = 1f;
         
         [Header("NPC Parameters")]
         [Tooltip("The chances to spawn an infected NPC. Total of all the rates should be 1")]
@@ -103,12 +102,12 @@ namespace NPCs
             CleanNPCs();
         }
 
-        public void OnNPCDestroyed(NPCType type)
+        private void OnNPCDestroyed(NPCType type)
         {
             UpdateCountNPC(type, -1);
         }
 
-        public void OnNPCTypeChanged(GameObject npc, NPCType previous, NPCType future)
+        private void OnNPCTypeChanged(GameObject npc, NPCType previous, NPCType future)
         {
             var path = npc.GetComponent<NPCPathController>();
             
@@ -183,6 +182,8 @@ namespace NPCs
 
             var infection = npc.GetComponent<NPCInfectionController>();
             infection.SetTypeNPC(npcType);
+            
+            infection.npcTypeUpdated.AddListener(OnNPCTypeChanged);
 
             var interactions = npc.GetComponent<NPCInteractionController>();
             interactions.SetTypeNPC(npcType);

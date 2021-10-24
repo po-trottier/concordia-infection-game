@@ -22,6 +22,7 @@ public class NPCInfectionController : MonoBehaviour
 
     [Header("Audio")] 
     [SerializeField] private AudioSource infectionAudio;
+    [SerializeField] private AudioSource contaminationAudio;
     
     [HideInInspector] [Tooltip("Parent GameObject, Previous Type, New Type")]
     public UnityEvent<GameObject, NPCType, NPCType> npcTypeUpdated;
@@ -115,6 +116,7 @@ public class NPCInfectionController : MonoBehaviour
         if (Random.value > contaminationRate)
             return;
         
+        AudioSource.PlayClipAtPoint(contaminationAudio.clip, transform.position);
         npcTypeUpdated.Invoke(gameObject, _npcType, _npcType == NPCType.Mask ? NPCType.MaskInfected : NPCType.Infected);
     }
 }

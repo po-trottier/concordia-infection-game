@@ -3682,7 +3682,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6410776349770214233, guid: da2920351b98fd742aabafe669e9b119, type: 3}
       propertyPath: gamePaused.m_PersistentCalls.m_Calls.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6410776349770214233, guid: da2920351b98fd742aabafe669e9b119, type: 3}
       propertyPath: onPause.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
@@ -3697,9 +3697,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6410776349770214233, guid: da2920351b98fd742aabafe669e9b119, type: 3}
+      propertyPath: gamePaused.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6410776349770214233, guid: da2920351b98fd742aabafe669e9b119, type: 3}
       propertyPath: gamePaused.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1511322222}
+    - target: {fileID: 6410776349770214233, guid: da2920351b98fd742aabafe669e9b119, type: 3}
+      propertyPath: gamePaused.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 2142118962}
     - target: {fileID: 6410776349770214233, guid: da2920351b98fd742aabafe669e9b119, type: 3}
       propertyPath: onPause.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
@@ -3713,7 +3721,15 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6410776349770214233, guid: da2920351b98fd742aabafe669e9b119, type: 3}
+      propertyPath: gamePaused.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6410776349770214233, guid: da2920351b98fd742aabafe669e9b119, type: 3}
       propertyPath: gamePaused.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnGamePaused
+      objectReference: {fileID: 0}
+    - target: {fileID: 6410776349770214233, guid: da2920351b98fd742aabafe669e9b119, type: 3}
+      propertyPath: gamePaused.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
       value: OnGamePaused
       objectReference: {fileID: 0}
     - target: {fileID: 6410776349770214233, guid: da2920351b98fd742aabafe669e9b119, type: 3}
@@ -3725,11 +3741,19 @@ PrefabInstance:
       value: CountdownManager, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 6410776349770214233, guid: da2920351b98fd742aabafe669e9b119, type: 3}
+      propertyPath: gamePaused.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: UI.RoundRecapManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6410776349770214233, guid: da2920351b98fd742aabafe669e9b119, type: 3}
       propertyPath: onPause.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 6410776349770214233, guid: da2920351b98fd742aabafe669e9b119, type: 3}
       propertyPath: gamePaused.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 6410776349770214233, guid: da2920351b98fd742aabafe669e9b119, type: 3}
+      propertyPath: gamePaused.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 9172635065809189573, guid: da2920351b98fd742aabafe669e9b119, type: 3}
@@ -4207,6 +4231,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 884451899}
   m_CullTransparentMesh: 1
+--- !u!1 &895593669 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3925504554641986342, guid: 6c67331ebd606094b8d1c8f51823f7ab, type: 3}
+  m_PrefabInstance: {fileID: 3925504554739889306}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &927382530
 GameObject:
   m_ObjectHideFlags: 0
@@ -12222,7 +12251,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   roundTotalTime: 60
   roundDangerTime: 10
-  roundStopSpawnTime: 20
+  roundStopSpawnTime: 5
   roundStarting:
     m_PersistentCalls:
       m_Calls:
@@ -13818,16 +13847,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   initialCountNPC: 10
-  roundIncreaseMultiplierNPC: 1.25
+  roundIncreaseMultiplierNPC: 1.2
   initialSpeedNPC: 0.5
-  roundIncreaseMultiplierSpeed: 1.1
+  roundIncreaseMultiplierSpeed: 1.25
   targetPositionRandomness: 1
-  infectedRate: 0.1666667
-  maskRate: 0.1666667
-  maskInfectedRate: 0.16666667
-  noMaskRate: 0.1666667
-  susceptibleRate: 0.1666667
-  vaccinatedRate: 0.1666667
+  infectedRate: 0.2666667
+  maskRate: 0.08333333
+  maskInfectedRate: 0.24999999
+  noMaskRate: 0.13333334
+  susceptibleRate: 0.19999999
+  vaccinatedRate: 0.0666667
   doorsTilemap: {fileID: 230773979}
   shopsTilemap: {fileID: 1986095155}
   doorTiles:
@@ -13992,7 +14021,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3925504554641986340, guid: 6c67331ebd606094b8d1c8f51823f7ab, type: 3}
   m_PrefabInstance: {fileID: 3925504554739889306}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 895593669}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 46c7f031ed0df204f9720cca994c93d3, type: 3}
@@ -17520,6 +17549,7 @@ MonoBehaviour:
   roundRecap: {fileID: 2029460557}
   roundManager: {fileID: 1253882480}
   scoreManager: {fileID: 1253882482}
+  player: {fileID: 895593669}
 --- !u!1001 &3925504554739889306
 PrefabInstance:
   m_ObjectHideFlags: 0

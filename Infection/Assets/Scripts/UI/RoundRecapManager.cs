@@ -29,8 +29,10 @@ namespace UI
         [Header("Other References")]
         [SerializeField] private RoundManager roundManager;
         [SerializeField] private ScoreManager scoreManager;
+        [SerializeField] private GameObject player;
 
         private int _currentCountdown;
+        private Coroutine _coroutine;
         
         private void Start()
         {
@@ -50,12 +52,26 @@ namespace UI
             
             countdownGroup.SetActive(success);
             betterLuckNextTimeGroup.SetActive(!success);
+
+            // Disable player between rounds
+            player.SetActive(false);
             
             if (success)
             {
                 countdownText.text = _currentCountdown.ToString();
-                StartCoroutine(CountdownCoroutine());
+                _coroutine = StartCoroutine(CountdownCoroutine());
             }
+        }
+
+        public void OnGamePaused(bool paused)
+        {
+            if (_coroutine == null)
+                return;
+
+            if (paused)
+                StopCoroutine(_coroutine);
+            else
+                _coroutine = StartCoroutine(CountdownCoroutine());
         }
 
         private IEnumerator CountdownCoroutine()
@@ -65,6 +81,9 @@ namespace UI
                 yield return new WaitForSecondsRealtime(1);
                 countdownText.text = (_currentCountdown--).ToString();
             }
+            
+            // Re-enable player when round starts
+            player.SetActive(true);
             
             roundRecap.SetActive(false);
             roundManager.StartRound();
