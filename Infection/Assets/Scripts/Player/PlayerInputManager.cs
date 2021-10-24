@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 
 [RequireComponent(typeof(PlayerInput))]
-public class PlayerInputController : MonoBehaviour
+public class PlayerInputManager : MonoBehaviour
 {
     [Header("Mouse Cursor Settings")] 
     [SerializeField] private bool cursorLocked = true;
@@ -12,14 +12,16 @@ public class PlayerInputController : MonoBehaviour
     public Vector2 move;
     [Tooltip("Player jump input")]
     public bool jump;
-    [Tooltip("Toggle pause menu input")]
-    public bool pause;
     [Tooltip("Distribute mask input")]
     public bool mask;
     [Tooltip("Distribute vaccine input")]
     public bool vaccinate;
     [Tooltip("Crowds control input")]
     public bool cc;
+    [Tooltip("Clean control input")]
+    public bool clean;
+    [Tooltip("Toggle pause menu input")]
+    public bool pause;
 
     [Header("References")] 
     public PlayerInput reference;
@@ -59,6 +61,11 @@ public class PlayerInputController : MonoBehaviour
     public void OnCC(InputAction.CallbackContext context)
     {
         cc = context.ReadValueAsButton();
+    }
+
+    public void OnClean(InputAction.CallbackContext context)
+    {
+        clean = context.ReadValueAsButton();
     }
 
     public void OnPause(InputAction.CallbackContext context)

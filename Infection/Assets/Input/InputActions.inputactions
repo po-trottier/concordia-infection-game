@@ -46,6 +46,14 @@
                     "interactions": ""
                 },
                 {
+                    "name": "Clean",
+                    "type": "Button",
+                    "id": "78747d23-c42d-4ae2-90ab-2318e67c43d2",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
                     "name": "Pause",
                     "type": "Button",
                     "id": "c32811ae-4f62-4971-b1dd-dd530966709c",
@@ -162,6 +170,17 @@
                     "processors": "",
                     "groups": "Keyboard and Mouse",
                     "action": "CC",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "62c44b98-a259-4b89-8fdd-713bb417b7ef",
+                    "path": "<Keyboard>/f",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard and Mouse",
+                    "action": "Clean",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

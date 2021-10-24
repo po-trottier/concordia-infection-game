@@ -23,7 +23,7 @@ namespace Player
         [SerializeField] private Rigidbody2D rb;
         [SerializeField] private SpriteRenderer sprite;
         [SerializeField] private Animator animator;
-        [SerializeField] private PlayerInputController input;
+        [SerializeField] private PlayerInputManager input;
 
         private float _jumpDelta;
 

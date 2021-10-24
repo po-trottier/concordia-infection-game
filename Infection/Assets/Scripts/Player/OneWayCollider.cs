@@ -5,12 +5,12 @@ public class OneWayCollider : MonoBehaviour
 {
     [SerializeField] private PlatformEffector2D platform;
     
-    private PlayerInputController _input;
+    private PlayerInputManager _input;
     
     void Start()
     {
         var player = GameObject.FindWithTag(Tags.Player);
-        _input = player.GetComponent<PlayerInputController>();
+        _input = player.GetComponent<PlayerInputManager>();
     }
 
     void Update()

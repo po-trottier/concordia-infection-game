@@ -3669,6 +3669,10 @@ PrefabInstance:
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6410776349770214233, guid: da2920351b98fd742aabafe669e9b119, type: 3}
+      propertyPath: inputManager
+      value: 
+      objectReference: {fileID: 1862096074}
+    - target: {fileID: 6410776349770214233, guid: da2920351b98fd742aabafe669e9b119, type: 3}
       propertyPath: inputController
       value: 
       objectReference: {fileID: 1862096074}
@@ -12317,7 +12321,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98befd571c697144a9e9849231102e87, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lives: 1
+  lives: 3
   lifeLost: {fileID: 545544514}
   roundManager: {fileID: 1253882480}
 --- !u!114 &1253882483
@@ -17523,6 +17527,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 469618048023055990, guid: 6c67331ebd606094b8d1c8f51823f7ab, type: 3}
+      propertyPath: infectionManager
+      value: 
+      objectReference: {fileID: 1253882483}
     - target: {fileID: 3925504554641986342, guid: 6c67331ebd606094b8d1c8f51823f7ab, type: 3}
       propertyPath: m_Name
       value: Player

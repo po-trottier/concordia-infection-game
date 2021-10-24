@@ -7,13 +7,14 @@ using UnityEngine.Events;
 public class NPCInfectionController : MonoBehaviour
 {
     [Header("Infection Rate Parameters")]
-    [SerializeField] private float infectionRate = 0.15f;
+    [Range(0f, 1f)] [SerializeField] private float noMaskInfectionRate = 0.2f;
+    [Range(0f, 1f)] [SerializeField] private float maskInfectionRate = 0.05f;
     
     [Header("Contamination Rate Parameters")]
-    [SerializeField] private float maskContaminationRate = 0.2f;
-    [SerializeField] private float noMaskContaminationRate = 0.4f;
-    [SerializeField] private float susceptibleContaminationRate = 0.6f;
-    [SerializeField] private float vaccinatedContaminationRate = 0.05f;
+    [Range(0f, 1f)] [SerializeField] private float maskContaminationRate = 0.4f;
+    [Range(0f, 1f)] [SerializeField] private float noMaskContaminationRate = 0.5f;
+    [Range(0f, 1f)] [SerializeField] private float susceptibleContaminationRate = 0.9f;
+    [Range(0f, 1f)] [SerializeField] private float vaccinatedContaminationRate = 0.1f;
 
     [Header("Other Parameters")]
     [SerializeField] private NPCType[] infectedTypes;
@@ -26,9 +27,7 @@ public class NPCInfectionController : MonoBehaviour
     public UnityEvent<GameObject, NPCType, NPCType> npcTypeUpdated;
     
     private NPCType _npcType;
-    private Vector3[] _rails;
     private Vector3 _currentTilePosition;
-
     private InfectionManager _infectionManager;
 
     private bool _isInfected => infectedTypes.Contains(_npcType);
@@ -39,14 +38,12 @@ public class NPCInfectionController : MonoBehaviour
 
         if (_infectionManager == null)
             throw new UnityException("No InfectionManager was found");
-
-        _rails = _infectionManager.GetRails();
     }
 
     private void FixedUpdate()
     {
         // Get the closest infected tiles
-        var closestTiles = _rails
+        var closestTiles = _infectionManager.GetRails()
             .Where(r => Vector3.Distance(r, transform.position) < infectionRange)
             .OrderBy(r => Vector3.Distance(r, transform.position))
             .ToArray();
@@ -70,6 +67,18 @@ public class NPCInfectionController : MonoBehaviour
 
     private void AttemptInfection(Vector3 railPosition)
     {
+        var infectionRate = 0f;
+        
+        switch (_npcType)
+        {
+            case NPCType.Infected:
+                infectionRate = noMaskInfectionRate;
+                break;
+            case NPCType.MaskInfected:
+                infectionRate = maskInfectionRate;
+                break;
+        }
+        
         if (Random.value > infectionRate)
             return;
         

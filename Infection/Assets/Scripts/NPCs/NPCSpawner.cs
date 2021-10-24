@@ -198,13 +198,20 @@ namespace NPCs
             path.npcDestroyed.AddListener(OnNPCDestroyed);
         }
         
-        private static void CleanNPCs()
+        private void CleanNPCs()
         {
             var npcs = GameObject.FindGameObjectsWithTag(Tags.NPC);
             foreach (var npc in npcs)
             {
                 Destroy(npc);
             }
+
+            infectedCount = 0;
+            maskCount = 0;
+            maskInfectedCount = 0;
+            noMaskCount = 0;
+            susceptibleCount = 0;
+            vaccinatedCount = 0;
         }
 
         private NPCType GetRandomTypeNPC()

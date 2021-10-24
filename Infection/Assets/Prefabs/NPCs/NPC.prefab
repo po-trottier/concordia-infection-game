@@ -43,7 +43,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: -4883281685055953505, guid: 03f8b1f30d6e67d43b6654a20d16db51, type: 2}
   m_audioClip: {fileID: 8300000, guid: a8e19ef7d5cfb9145935bc861c7b2f25, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.3
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -408,11 +408,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0b5b1a6fac950f47ab5b7879de359be, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  infectionRate: 0.15
-  maskContaminationRate: 0.2
-  noMaskContaminationRate: 0.4
-  susceptibleContaminationRate: 0.6
-  vaccinatedContaminationRate: 0.05
+  noMaskInfectionRate: 0.2
+  maskInfectionRate: 0.05
+  maskContaminationRate: 0.4
+  noMaskContaminationRate: 0.6
+  susceptibleContaminationRate: 0.9
+  vaccinatedContaminationRate: 0.1
   infectedTypes: 0100000003000000
   infectionRange: 0.5
   infectionAudio: {fileID: 7132532971022029194}

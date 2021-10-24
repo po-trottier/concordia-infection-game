@@ -1,6 +1,8 @@
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using Common;
+using Game;
 using NPCs;
 using Player.Enums;
 using UnityEngine;
@@ -8,7 +10,10 @@ using UnityEngine.InputSystem;
 
 public class PlayerInteractionController : MonoBehaviour
 {
-    [Header("NPCTypes")]
+    [Header("Cleanup Parameters")]
+    [SerializeField] private float cleanupRange = 0.5f;
+    
+    [Header("NPC Types")]
     [SerializeField] private NPCType[] canBeMasked;
     [SerializeField] private NPCType[] canBeVaccinated;
     
@@ -17,9 +22,12 @@ public class PlayerInteractionController : MonoBehaviour
     [SerializeField] private AudioSource masked;
     [SerializeField] private AudioSource vaccinated;
     [SerializeField] private AudioSource cced;
+    [SerializeField] private AudioSource cleaned;
     
     [Header("References")] 
-    [SerializeField] private PlayerInputController input;
+    [SerializeField] private PlayerInputManager input;
+    [SerializeField] private InfectionManager infectionManager;
+    [SerializeField] private Vector3 playerTransform;
     
     private Dictionary<int, NPCInteractionController> _npcsInRange;
 
@@ -28,6 +36,7 @@ public class PlayerInteractionController : MonoBehaviour
         input.reference.actions[ActionTypes.Mask].performed += OnMaskPerformed;
         input.reference.actions[ActionTypes.Vaccinate].performed += OnVaccinatePerformed;
         input.reference.actions[ActionTypes.CC].performed += OnCCPerformed;
+        input.reference.actions[ActionTypes.Clean].performed += OnCleanPerformed;
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -105,6 +114,27 @@ public class PlayerInteractionController : MonoBehaviour
         }
         
         cced.Play();
+    }
+
+    private void OnCleanPerformed(InputAction.CallbackContext callbackContext)
+    {
+        var tileOffset = new Vector3(0f, 0.5f, 0f);
+        
+        var closestInfectedTiles = infectionManager.GetRails()
+            .Where(r => infectionManager.GetRailInfectionStatus(r))
+            .Where(r => Vector3.Distance(r, transform.position - playerTransform + tileOffset) < cleanupRange)
+            .OrderBy(r => Vector3.Distance(r, transform.position - playerTransform + tileOffset))
+            .ToArray();
+        
+        if (closestInfectedTiles.Length <= 0)
+        {
+            noEnemiesInRange.Play();
+            return;
+        }
+            
+        cleaned.Play();
+        
+        infectionManager.UpdateRailInfectionStatus(closestInfectedTiles.First(), false);
     }
 
     private void UpdateInRangeNPC(Collider2D other, CollisionState state)

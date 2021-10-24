@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 333385363924675617}
   - component: {fileID: 2285203348937706707}
   - component: {fileID: 3280096700331944123}
+  - component: {fileID: 1796341921366882877}
   m_Layer: 0
   m_Name: Audio
   m_TagString: Untagged
@@ -418,6 +419,102 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!82 &1796341921366882877
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1230082389880834364}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 1684705789227533889, guid: 03f8b1f30d6e67d43b6654a20d16db51, type: 2}
+  m_audioClip: {fileID: 8300000, guid: 83f4cbb1787f0e448ac37e03489c1568, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 0.4
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &3925504554641986342
 GameObject:
   m_ObjectHideFlags: 0
@@ -697,6 +794,22 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: 55c1a0e3-53e5-453d-aec9-26a731d14afa
     m_ActionName: Player/CC[/Keyboard/r]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 3925504554641986340}
+        m_TargetAssemblyTypeName: PlayerInputManager, Assembly-CSharp
+        m_MethodName: OnClean
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 78747d23-c42d-4ae2-90ab-2318e67c43d2
+    m_ActionName: Player/Clean[/Keyboard/f]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: Keyboard and Mouse
   m_DefaultActionMap: Player
@@ -717,10 +830,11 @@ MonoBehaviour:
   cursorLocked: 1
   move: {x: 0, y: 0}
   jump: 0
-  pause: 0
   mask: 0
   vaccinate: 0
   cc: 0
+  clean: 0
+  pause: 0
   reference: {fileID: 3925504554641986341}
 --- !u!114 &3925504554641986343
 MonoBehaviour:
@@ -762,13 +876,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1924be55306a3ca458f2614f8d1c111b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cleanupRange: 0.5
   canBeMasked: 010000000400000005000000
   canBeVaccinated: 0100000002000000030000000400000005000000
   noEnemiesInRange: {fileID: 8279453281379018733}
   masked: {fileID: 333385363924675617}
   vaccinated: {fileID: 2285203348937706707}
   cced: {fileID: 3280096700331944123}
+  cleaned: {fileID: 1796341921366882877}
   input: {fileID: 3925504554641986340}
+  infectionManager: {fileID: 0}
+  playerTransform: {x: 0, y: 1.105, z: 0}
 --- !u!1 &5610802478170045796
 GameObject:
   m_ObjectHideFlags: 0

@@ -6,7 +6,7 @@ using UnityEngine.InputSystem;
 public class PauseMenuManager : MonoBehaviour
 {
     [SerializeField] private GameObject canvas;
-    [SerializeField] private PlayerInputController inputController;
+    [SerializeField] private PlayerInputManager inputManager;
 
     public UnityEvent<bool> gamePaused;
     
@@ -15,7 +15,7 @@ public class PauseMenuManager : MonoBehaviour
         ResumeGame();
         canvas.SetActive(false);
         
-        inputController.reference.actions[ActionTypes.Pause].performed += ToggleMenu;
+        inputManager.reference.actions[ActionTypes.Pause].performed += ToggleMenu;
     }
 
     private void ToggleMenu(InputAction.CallbackContext _)
