@@ -1,10 +1,8 @@
-using System.Collections.Generic;
 using System.Linq;
 using Game;
 using Player.Enums;
 using UnityEngine;
 using UnityEngine.Events;
-using UnityEngine.Tilemaps;
 
 public class NPCInfectionController : MonoBehaviour
 {
@@ -28,7 +26,7 @@ public class NPCInfectionController : MonoBehaviour
     public UnityEvent<GameObject, NPCType, NPCType> npcTypeUpdated;
     
     private NPCType _npcType;
-    private Dictionary<Vector3, Tile> _rails;
+    private Vector3[] _rails;
     private Vector3 _currentTilePosition;
 
     private InfectionManager _infectionManager;
@@ -48,7 +46,7 @@ public class NPCInfectionController : MonoBehaviour
     private void FixedUpdate()
     {
         // Get the closest infected tiles
-        var closestTiles = _rails.Keys
+        var closestTiles = _rails
             .Where(r => Vector3.Distance(r, transform.position) < infectionRange)
             .OrderBy(r => Vector3.Distance(r, transform.position))
             .ToArray();
@@ -72,12 +70,8 @@ public class NPCInfectionController : MonoBehaviour
 
     private void AttemptInfection(Vector3 railPosition)
     {
-        Debug.Log("Attempt Infection");
-        
         if (Random.value > infectionRate)
             return;
-        
-        Debug.Log("Infection In Progress");
         
         infectionAudio.Play();
         

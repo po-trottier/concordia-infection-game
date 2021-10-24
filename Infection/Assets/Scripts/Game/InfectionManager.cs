@@ -18,41 +18,34 @@ namespace Game
         [Header("Other References")] 
         [SerializeField] private ScoreManager scoreManager;
         
-        private Dictionary<Vector3, Tile> _rails;
-        private Dictionary<Vector3, bool> _railsInfectionStatus;
+        private Dictionary<Vector3, bool> _rails;
 
         private void Start()
         {
             FindRailsInTilemap();
-            InitializeRailInfectionStatus();
         }
         
-        public Dictionary<Vector3, Tile> GetRails()
+        public Vector3[] GetRails()
         {
-            return _rails;
+            return _rails.Keys.ToArray();
         }
         
         public bool GetRailInfectionStatus(Vector3 railPosition)
         {
-            return _railsInfectionStatus[railPosition];
-        }
-        
-        public void InitializeRailInfectionStatus()
-        {
-            _railsInfectionStatus = new Dictionary<Vector3, bool>();
-            _railsInfectionStatus.AddRange(_rails.Select(r => new KeyValuePair<Vector3, bool>(r.Key, false)));
+            return _rails[railPosition];
         }
 
         public void UpdateRailInfectionStatus(Vector3 railPosition, bool infected)
         {
-            _railsInfectionStatus[railPosition] = infected;
+            _rails[railPosition] = infected;
             
-            _rails[railPosition].color = infected ? infectedColor : Color.white;
+            // By default it's set to "Lock Colour".
+            tilemap.SetTileFlags(tilemap.WorldToCell(railPosition), TileFlags.None);
+            // Set the colour.
+            tilemap.SetColor(tilemap.WorldToCell(railPosition), infected ? infectedColor : Color.white);
             
             if (infected)
                 return;
-            else 
-                Debug.Log("Infected Rail at: " + railPosition);
             
             // If the player decontaminated a surface give them 2 points
             scoreManager.UpdateScore(2);
@@ -60,7 +53,7 @@ namespace Game
         
         private void FindRailsInTilemap()
         {
-            _rails = new Dictionary<Vector3, Tile>();
+            _rails = new Dictionary<Vector3, bool>();
 
             for (var x = tilemap.cellBounds.xMin; x < tilemap.cellBounds.xMax; x++)
             {
@@ -73,7 +66,7 @@ namespace Game
                     if (!tilemap.HasTile(coordinates) || tile.name != foundTile.name) 
                         continue;
                     
-                    _rails.Add(tilemap.GetCellCenterWorld(coordinates), foundTile);
+                    _rails.Add(tilemap.GetCellCenterWorld(coordinates), false);
                 }
             }
         }
