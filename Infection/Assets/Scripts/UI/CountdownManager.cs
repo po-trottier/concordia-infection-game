@@ -30,13 +30,27 @@ public class CountdownManager : MonoBehaviour
     private float _timeLeft;
     private Coroutine _coroutine;
 
+    private void FixedUpdate()
+    {
+        slider.value = Mathf.Lerp(slider.value, _timeLeft / roundManager.roundTotalTime, animationTime * Time.fixedDeltaTime);
+
+        textObject.text = String.Format(timeRemainingText, _timeLeft);
+        
+        image.color = _timeLeft < roundManager.roundDangerTime ? dangerColor : healthyColor;
+    }
+
     public void OnGamePaused(bool isPaused)
     {
         _paused = isPaused;
         if (_paused)
-            StopCoroutine(_coroutine);
+        {
+            if (_coroutine != null)
+                StopCoroutine(_coroutine);
+        }
         else
+        {
             _coroutine = StartCoroutine(CountdownCoroutine());
+        }
     }
 
     public void OnRoundStarting()
@@ -49,13 +63,12 @@ public class CountdownManager : MonoBehaviour
         _coroutine = StartCoroutine(CountdownCoroutine());
     }
 
-    private void FixedUpdate()
+    public void OnRoundEnding()
     {
-        slider.value = Mathf.Lerp(slider.value, _timeLeft / roundManager.roundTotalTime, animationTime * Time.fixedDeltaTime);
-
-        textObject.text = String.Format(timeRemainingText, _timeLeft);
+        if (_coroutine != null)
+            StopCoroutine(_coroutine);
         
-        image.color = _timeLeft < roundManager.roundDangerTime ? dangerColor : healthyColor;
+        _timeLeft = 0f;
     }
     
     private IEnumerator CountdownCoroutine()

@@ -15,8 +15,8 @@ namespace Game
         public float roundStopSpawnTime = 20f;
         
         [Header("Events")]
-        public UnityEvent<RoundModel> roundStarting;
-        public UnityEvent roundEnded;
+        [SerializeField] private UnityEvent<RoundModel> roundStarting;
+        [SerializeField] private UnityEvent<bool> roundEnded;
 
         [Header("Audio")] 
         [SerializeField] private AudioSource roundSuccess;
@@ -28,8 +28,11 @@ namespace Game
 
         [HideInInspector]
         public uint round;
-
-        private bool _roundSuccess = true;
+        
+        private void Start()
+        {
+            StartRound();
+        }
         
         public void OnDangerTimeReached()
         {
@@ -38,22 +41,22 @@ namespace Game
         
         public void OnCountdownReached()
         {
+            EndRound(true);
+        }
+
+        public void EndRound(bool success)
+        {
             dangerClock.Stop();
             music.Stop();
 
-            var audioSource = _roundSuccess ? roundSuccess : roundFailure;
+            var audioSource = success ? roundSuccess : roundFailure;
             audioSource.Play();
             
-            roundEnded ??= new UnityEvent();
-            roundEnded.Invoke();
+            roundEnded ??= new UnityEvent<bool>();
+            roundEnded.Invoke(success);
         }
         
-        private void Start()
-        {
-            StartRound();
-        }
-
-        private void StartRound()
+        public void StartRound()
         {
             music.Play();
             

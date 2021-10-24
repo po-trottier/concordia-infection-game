@@ -1,10 +1,19 @@
 using System;
+using Game;
 using UnityEngine;
 
 public class ScoreManager : MonoBehaviour
 {
+    [Header("Parameters")] 
+    [SerializeField] private int lives = 3;
+
+    [Header("Audio")] 
+    [SerializeField] private AudioSource lifeLost;
+    
+    [Header("References")] 
+    [SerializeField] private RoundManager roundManager;
+    
     private int _score;
-    private int _lives = 3;
     
     public int GetScore()
     {
@@ -19,12 +28,19 @@ public class ScoreManager : MonoBehaviour
     
     public int GetLives()
     {
-        return _lives;
+        return lives;
     }
 
     public void UpdateLives(int delta)
     {
-        _lives += delta;
-        _lives = Math.Max(_lives, 0);
+        lives += delta;
+        lives = Math.Max(lives, 0);
+        
+        // If we lost a life
+        if (delta < 0)
+            lifeLost.Play();
+        
+        if (lives == 0)
+            roundManager.EndRound(false);
     }
 }

@@ -181,6 +181,9 @@ namespace NPCs
             npc.transform.position = spawnPosition;
             npc.layer = LayerMask.NameToLayer(Layers.NPC);
 
+            var infection = npc.GetComponent<NPCInfectionController>();
+            infection.SetTypeNPC(npcType);
+
             var interactions = npc.GetComponent<NPCInteractionController>();
             interactions.SetTypeNPC(npcType);
             
