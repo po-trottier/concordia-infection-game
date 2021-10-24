@@ -54,6 +54,14 @@
                     "interactions": ""
                 },
                 {
+                    "name": "Special",
+                    "type": "Button",
+                    "id": "cb42297b-6b1b-409c-a6cd-ee71494a2a51",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
                     "name": "Pause",
                     "type": "Button",
                     "id": "c32811ae-4f62-4971-b1dd-dd530966709c",
@@ -181,6 +189,17 @@
                     "processors": "",
                     "groups": "Keyboard and Mouse",
                     "action": "Clean",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "733c11df-b25b-48fa-a346-e7f75dfde509",
+                    "path": "<Keyboard>/c",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard and Mouse",
+                    "action": "Special",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

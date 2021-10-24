@@ -1,4 +1,5 @@
 using Common;
+using Player;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -14,6 +15,9 @@ namespace Game
         [Tooltip("The time at which NPCs stop spawning to let the player clear out the map")]
         public float roundStopSpawnTime = 20f;
         
+        [Header("Physics Parameters")]
+        public Vector3 gravity = Physics.gravity;
+
         [Header("Events")]
         [SerializeField] private UnityEvent<RoundModel> roundStarting;
         [SerializeField] private UnityEvent<bool> roundEnded;
@@ -25,6 +29,9 @@ namespace Game
         
         [Header("Music")] 
         [SerializeField] private AudioSource music;
+        
+        [Header("References")] 
+        [SerializeField] private PlayerMovementController movementController;
 
         [HideInInspector]
         public uint round;
@@ -59,6 +66,10 @@ namespace Game
         public void StartRound()
         {
             music.Play();
+
+            Physics.gravity = gravity;
+            Time.timeScale = 1f;
+            movementController.desiredPlayerSpeed = movementController.playerSpeed;
             
             roundStarting ??= new UnityEvent<RoundModel>();
             roundStarting.Invoke(new RoundModel(++round, roundTotalTime, roundStopSpawnTime));

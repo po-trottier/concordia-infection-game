@@ -20,6 +20,8 @@ public class PlayerInputManager : MonoBehaviour
     public bool cc;
     [Tooltip("Clean control input")]
     public bool clean;
+    [Tooltip("Special Power control input")]
+    public bool special;
     [Tooltip("Toggle pause menu input")]
     public bool pause;
 
@@ -66,6 +68,11 @@ public class PlayerInputManager : MonoBehaviour
     public void OnClean(InputAction.CallbackContext context)
     {
         clean = context.ReadValueAsButton();
+    }
+
+    public void OnSpecial(InputAction.CallbackContext context)
+    {
+        special = context.ReadValueAsButton();
     }
 
     public void OnPause(InputAction.CallbackContext context)

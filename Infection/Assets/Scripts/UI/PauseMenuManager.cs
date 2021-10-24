@@ -23,13 +23,13 @@ public class PauseMenuManager : MonoBehaviour
         if (canvas != null)
             canvas.SetActive(!canvas.activeSelf);
 
-        gamePaused.Invoke(canvas.activeSelf);
-        
         // If the menu is visible
         if (canvas.activeSelf)
             PauseGame();
         else
             ResumeGame();
+        
+        gamePaused.Invoke(canvas.activeSelf);
     }
 
     private void PauseGame()

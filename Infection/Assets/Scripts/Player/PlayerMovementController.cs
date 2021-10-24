@@ -1,3 +1,4 @@
+using System;
 using Player.Enums;
 using UnityEngine;
 
@@ -6,7 +7,7 @@ namespace Player
     public class PlayerMovementController : MonoBehaviour
     {
         [Header("Player Settings")]
-        [SerializeField] private float playerSpeed = 2f;
+        [SerializeField] public float playerSpeed = 2f;
         [SerializeField] private float jumpForce = 0.15f;
         [SerializeField] private float jumpDelay = 0.25f;
         
@@ -25,6 +26,9 @@ namespace Player
         [SerializeField] private Animator animator;
         [SerializeField] private PlayerInputManager input;
 
+        [HideInInspector] 
+        public float desiredPlayerSpeed;
+        
         private float _jumpDelta;
 
         private bool IsGrounded => Physics2D.Raycast(box.bounds.center, Vector2.down, box.bounds.extents.y + groundedOffset, groundedMask).collider != null;
@@ -34,7 +38,12 @@ namespace Player
         private bool CanDescend => Physics2D.Raycast(box.bounds.center, Vector2.down, box.bounds.extents.y + groundedOffset, stairsMask).collider != null;
 
         private bool CanJump => _jumpDelta > jumpDelay;
-        
+
+        private void Start()
+        {
+            desiredPlayerSpeed = playerSpeed;
+        }
+
         private void Update()
         {
             MovePlayer();
@@ -53,7 +62,7 @@ namespace Player
             
             sprite.flipX = input.move.x < 0f;
                 
-            transform.Translate(new Vector3(input.move.x * playerSpeed * Time.deltaTime, 0f, 0f));
+            transform.Translate(new Vector3(input.move.x * desiredPlayerSpeed * Time.deltaTime, 0f, 0f));
         }
 
         private void TryJump()

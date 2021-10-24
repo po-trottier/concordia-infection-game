@@ -14,6 +14,8 @@ namespace Common
         
         public static string Clean => "Clean";
         
+        public static string Special => "Special";
+        
         public static string Pause => "Pause";
     }
 }

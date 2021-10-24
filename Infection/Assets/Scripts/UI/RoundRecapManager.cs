@@ -65,13 +65,15 @@ namespace UI
 
         public void OnGamePaused(bool paused)
         {
-            if (_coroutine == null)
-                return;
-
             if (paused)
-                StopCoroutine(_coroutine);
+            {
+                if (_coroutine != null)
+                    StopCoroutine(_coroutine);
+            }
             else
+            {
                 _coroutine = StartCoroutine(CountdownCoroutine());
+            }
         }
 
         private IEnumerator CountdownCoroutine()
