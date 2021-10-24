@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using System.Linq;
+using Game;
 using Player.Enums;
 using UnityEngine;
 using UnityEngine.Events;
@@ -18,43 +19,50 @@ public class NPCInfectionController : MonoBehaviour
 
     [Header("Other Parameters")]
     [SerializeField] private NPCType[] infectedTypes;
-    [SerializeField] private float infectionRange;
+    [SerializeField] private float infectionRange = 0.5f;
+
+    [Header("Audio")] 
+    [SerializeField] private AudioSource infectionAudio;
     
     [HideInInspector] [Tooltip("Parent GameObject, Previous Type, New Type")]
     public UnityEvent<GameObject, NPCType, NPCType> npcTypeUpdated;
     
-    [Header("Tilemap References")]
-    [SerializeField] private Tilemap tilemap;
-    [SerializeField] private TileBase tile;
-    
     private NPCType _npcType;
-    private Dictionary<Vector3, TileBase> _rails;
+    private Dictionary<Vector3, Tile> _rails;
     private Vector3 _currentTilePosition;
+
+    private InfectionManager _infectionManager;
 
     private bool _isInfected => infectedTypes.Contains(_npcType);
     
     private void Start()
     {
-        FindRailsInTilemap();
+        _infectionManager ??= FindObjectOfType<InfectionManager>();
+
+        if (_infectionManager == null)
+            throw new UnityException("No InfectionManager was found");
+
+        _rails = _infectionManager.GetRails();
     }
 
     private void FixedUpdate()
     {
+        // Get the closest infected tiles
         var closestTiles = _rails.Keys
             .Where(r => Vector3.Distance(r, transform.position) < infectionRange)
             .OrderBy(r => Vector3.Distance(r, transform.position))
             .ToArray();
         
-        // If no tile is close or it's the same as last update nothing to do
+        // If no infected tile is close or it's the same as last update nothing to do
         if (!closestTiles.Any() || _currentTilePosition == closestTiles.First()) 
             return;
-
+        
         _currentTilePosition = closestTiles.First();
 
         if (_isInfected)
-            AttemptInfection(_rails[_currentTilePosition]);
+            AttemptInfection(_currentTilePosition);
         else
-            AttemptContamination();
+            AttemptContamination(closestTiles);
     }
 
     public void SetTypeNPC(NPCType type)
@@ -62,16 +70,27 @@ public class NPCInfectionController : MonoBehaviour
         _npcType = type;
     }
 
-    private void AttemptInfection(TileBase tile)
+    private void AttemptInfection(Vector3 railPosition)
     {
+        Debug.Log("Attempt Infection");
+        
         if (Random.value > infectionRate)
             return;
         
-        Debug.Log($"Infect {tile.name}");
+        Debug.Log("Infection In Progress");
+        
+        infectionAudio.Play();
+        
+        _infectionManager.UpdateRailInfectionStatus(railPosition, true);
     }
 
-    private void AttemptContamination()
+    private void AttemptContamination(Vector3[] closestTiles)
     {
+        var closestInfectedTiles = closestTiles.Where(r => _infectionManager.GetRailInfectionStatus(r));
+        
+        if (!closestInfectedTiles.Any())
+            return;
+
         float contaminationRate = 0f;
 
         switch (_npcType)
@@ -94,25 +113,5 @@ public class NPCInfectionController : MonoBehaviour
             return;
         
         npcTypeUpdated.Invoke(gameObject, _npcType, _npcType == NPCType.Mask ? NPCType.MaskInfected : NPCType.Infected);
-    }
-    
-    private void FindRailsInTilemap()
-    {
-        _rails = new Dictionary<Vector3, TileBase>();
-
-        for (var x = tilemap.cellBounds.xMin; x < tilemap.cellBounds.xMax; x++)
-        {
-            for (var y = tilemap.cellBounds.yMin; y < tilemap.cellBounds.yMax; y++)
-            {
-                var coordinates = new Vector3Int(x, y, (int)tilemap.transform.position.z);
-                    
-                // If there is no tile or the tile is not in the list of tiles we are looking for at the current coordinates continue
-                var foundTile = tilemap.GetTile(coordinates);
-                if (!tilemap.HasTile(coordinates) || tile.name != foundTile.name) 
-                    continue;
-                    
-                _rails.Add(tilemap.GetCellCenterWorld(coordinates), foundTile);
-            }
-        }
     }
 }
