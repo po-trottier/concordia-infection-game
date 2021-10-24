@@ -4236,6 +4236,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 3925504554641986342, guid: 6c67331ebd606094b8d1c8f51823f7ab, type: 3}
   m_PrefabInstance: {fileID: 3925504554739889306}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &895593673 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3925504554641986343, guid: 6c67331ebd606094b8d1c8f51823f7ab, type: 3}
+  m_PrefabInstance: {fileID: 3925504554739889306}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 895593669}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64e06ae2814c4e7bae3e7dd2527fe9c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &927382530
 GameObject:
   m_ObjectHideFlags: 0
@@ -12252,6 +12263,7 @@ MonoBehaviour:
   roundTotalTime: 60
   roundDangerTime: 10
   roundStopSpawnTime: 5
+  gravity: {x: 0, y: -9.81, z: 0}
   roundStarting:
     m_PersistentCalls:
       m_Calls:
@@ -12322,6 +12334,7 @@ MonoBehaviour:
   roundFailure: {fileID: 545544511}
   dangerClock: {fileID: 545544513}
   music: {fileID: 1985611346}
+  movementController: {fileID: 895593673}
   round: 0
 --- !u!4 &1253882481
 Transform:
